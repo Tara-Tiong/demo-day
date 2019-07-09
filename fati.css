@@ -1,7 +1,7 @@
 h2{
-    font-size: 50px;
+    font-size: 30px;
     position: relative;
-    top: 40px;
+    top: 30px;
     color: grey;
     font-style: normal;
 }
@@ -9,9 +9,12 @@ h2{
     height: 50px;
     width: 50px;
     position: relative;
-    left: 655px;
+    right: -680px;
     top: 40px;
-    padding: 50px; 
+    /* padding: 50px;  */
+}
+h2{
+text-shadow: 0px 3px 13px rgba(0,0,0,.4);
 }
 
    

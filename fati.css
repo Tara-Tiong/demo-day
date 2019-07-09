@@ -1,0 +1,14 @@
+h2{
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+    color: grey;
+    font-style: normal;
+}
+#pic{
+    height: 50px;
+    width: 50px;
+    position: relative;
+    left: 655px;
+    top: 40px;
+}

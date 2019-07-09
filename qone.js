@@ -16,9 +16,10 @@ document.querySelector('#test').onclick = function() {
     userIn = Number(userIn);
     console.log(userIn)
     if (userIn == 5) {
-        window.location.replace('index.html');
+        window.location.replace('qtwo.html');
     } else {
-        document.querySelector('h1').innerHTML = 'You are Wrong!!!!!!';
+        // document.querySelector('h1').innerHTML = 'You are Wrong!!!!!!';
+        window.location.replace('incorrect.html');
     }
 
 }

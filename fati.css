@@ -9,9 +9,9 @@ h2{
     height: 50px;
     width: 50px;
     position: relative;
-    left: 655px;
+    right: -680px;
     top: 40px;
-    padding: 50px; 
+    /* padding: 50px;  */
 }
 
    

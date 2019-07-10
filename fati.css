@@ -47,7 +47,7 @@ h7{
 }
 #box{
     height: 250px;
-    width: 800px;
+    width: 700px;
     background-color: #5b85c9;
 }
 #text{
@@ -55,4 +55,21 @@ h7{
     font-style: oblique;
     position: relative;
     top: 70px;
+    color:#dfe2e8;
 }
+.square{
+    height: 120px;
+    width: 346px;
+    background-color: #5b85c9;
+    position: relative;
+    top: 5px;
+    display: inline-block
+}
+/* #square2{
+    height: 120px;
+    width: 120px;
+    background-color: #5b85c9;
+    position: relative;
+    top: 5px;
+    left: 500px;
+} */

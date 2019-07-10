@@ -45,3 +45,8 @@ h7{
     font-size: 15px;
     color:#b2b3af;
 }
+#box{
+    height: 250px;
+    width: 800px;
+    background-color: #5b85c9;
+}

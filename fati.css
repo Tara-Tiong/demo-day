@@ -9,12 +9,28 @@ h2{
     height: 50px;
     width: 50px;
     position: relative;
-    right: -680px;
-    top: 40px;
+    /* right: -500px;
+    top: 30px; */
+    display: inline-block;
     /* padding: 50px;  */
 }
+#test{
+    height: 300px;
+    width: 300px;
+    display: inline-block;
+}
+
 h2{
 text-shadow: 0px 3px 13px rgba(0,0,0,.4);
 }
+h3{
+    font-size: 18px;
 
-   
+}
+h5{
+    font-size: 9px;
+}
+h6{
+    font-size: 15px;
+    color:#f2b6e7;
+}

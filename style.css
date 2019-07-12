@@ -1,33 +1,11 @@
- #navbarSupportedContent{
-    font-family: "Andale Mono", AndaleMono, monospace; 
-    font-size: 16px; font-style: normal; 
-    font-variant: normal; 
-    font-weight: 700; 
-    line-height: 26.4px; 
-} h3 { font-family: "Andale Mono", AndaleMono, monospace; 
-    font-size: 14px; font-style: normal; 
-    font-variant: normal; font-weight: 700; 
-    line-height: 15.4px;
- } p { font-family: "trebuchetms"; 
-    font-size: 20px; font-style: normal; 
-    font-variant: normal;
-    font-weight: 400;
-    line-height: 20px;
-    padding: 25px 50px 75px 40px;
-     } blockquote { font-family:"Andale Mono", AndaleMono, monospace; 
-    font-size: 21px; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 400; 
-    line-height: 30px; 
-    } pre { font-family: "Andale Mono", AndaleMono, monospace; 
-    font-size: 13px; font-style: normal; 
-    font-variant: normal;
-    font-weight: 400; 
-    line-height: 18.5714px; 
-    }
+
     .sfgif{
       width: 300px;
       height: auto;
     }
-
+    .foodgif{
+      width: 200px;
+      height: auto;
+      padding-block: 0px
+    }
+   

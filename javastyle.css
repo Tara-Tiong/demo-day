@@ -205,3 +205,13 @@ img.gif{
    h1:hover{
         color: #fcf197;
  }
+ .songs {
+    display: inline-block;
+    width: 100px;
+    height: 100px
+    
+  }
+  .music{
+    width: 100px;
+    height: 100px;
+  }

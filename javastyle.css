@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color:  #5b85c9;
+    background-color: #fffbc9;
 }
 
 .wrapper{
@@ -202,3 +202,6 @@ img.gif{
     width: 300px;
     height: auto;
    }
+   h1:hover{
+    background-color: blueviolet;
+ }

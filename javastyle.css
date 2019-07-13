@@ -205,11 +205,14 @@ img.gif{
    h1:hover{
         color: #fcf197;
  }
- .songs {
+ .row {
     display: inline-block;
     width: 100px;
     height: 100px;
   }
+  .contianer {
+    display: grid;
+}
   
   h2{
     text-align: center;

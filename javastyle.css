@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #fffbc9;
+    background-color: #fffee3;
 }
 
 .wrapper{
@@ -105,7 +105,7 @@ body{
 /************* Style and animate the nav overlay ***********************/
 .main-nav-list::before,
 .main-nav-list::after{
-    background-color:#ffe0f9; 
+    background-color:#d169ae; 
     content:"";
     position: absolute;
     top: 0;

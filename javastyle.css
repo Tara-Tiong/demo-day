@@ -234,3 +234,7 @@ img.gif{
     font-size: 30px;
   }
  
+  p {
+    padding: 20px;   
+    font-size: 20px
+  }

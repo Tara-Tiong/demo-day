@@ -9,3 +9,4 @@ var toggledMenu = menuToggle.addEventListener("click", function(){
           activeElements[activated].classList.toggle("active");
      }
 }
+)

@@ -20,8 +20,24 @@ body{
     color: #38201c;
     padding: 2px 0px;
     border-radius: 50px;
-    border: 2px solid #cbcbcb;
-    box-shadow: 10px 15px 5px #
+}
+.grid #question{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color:#cf432b;
+}
+.buttons{
+    margin-top: 30px;
 
-
+}
+#btn0, #btn1, #btn2, #btn3{
+    background-color: #4287f5;
+    width: 250px;
+    font-size: 20px;
+    color: #a32141;
+    border: 1px solid #a32141;
+    border-radius: 50px;
+    margin: 10px 40px 10px;
+    padding: 10px 10px;
+    
 }

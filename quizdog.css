@@ -1,0 +1,25 @@
+body{
+    background-color: #f7c623;
+    }
+.grid{
+    width: 600px;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #ffebe8;
+    padding: 10px 50px 50px 50px;
+    border-radius: 50px;
+    border: 2px solid #38201c;
+    box-shadow: 10px 5px 15px #38201c;
+
+}
+.grid h1{
+    font-family: sans-serif;
+    background-color: #38201c;
+    font-size: 60px;
+    text-align: center;
+    color: #38201c;
+    padding: 2px 0px;
+    border-
+
+
+}

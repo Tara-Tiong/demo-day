@@ -60,12 +60,12 @@ h7{
     color:#dfe2e8;
 }
 .square{
-    height: 200px;
+    height: 400px;
     width: 346px;
     background-color: #5b85c9;
+    display: inline-block;
     position: relative;
     top: 9px;
-    display: inline-block;
     right:-50px
 }
 #square2{
@@ -78,9 +78,9 @@ h7{
 
 }
 #cheese{
-    height:130px;
-    width:350px;
+    height:320px;
+    width:357px;
     position: relative;
-    top: 8px;
+    top: -80px;
     right:360px;
 }

@@ -4,11 +4,11 @@
     list-style-type: none; /* Styled in normalize.css */
     text-decoration: none;
     color: #474145;
-    font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; }
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; 
 }
 
 body{
-    background-color:  #5b85c9;
+    background-color: #fffee3;
 }
 
 .wrapper{
@@ -105,7 +105,7 @@ body{
 /************* Style and animate the nav overlay ***********************/
 .main-nav-list::before,
 .main-nav-list::after{
-    background-color:#ffe0f9; 
+    background-color:#d169ae; 
     content:"";
     position: absolute;
     top: 0;
@@ -202,3 +202,39 @@ img.gif{
     width: 300px;
     height: auto;
    }
+   h1:hover{
+        color: #fcf197;
+ }
+ .row {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    padding-left: 10px;
+  }
+  .songs{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    padding-right: 10px;
+    padding: 200px;
+  }
+  img{
+      display: inline-block;
+      border-radius: 10%;
+      padding: 10px;
+  }
+  .contianer {
+    display: grid;
+}
+  
+  h2{
+    text-align: center;
+    font-size: 30px;
+  }
+ 
+  p {
+    padding: 20px;   
+    font-size: 20px
+  }

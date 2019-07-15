@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+.btn{
+    border: 1px solid #6760a3;
+    background: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: Monospace;
+    cursor: pointer;
+    margin: 10px;
+    
+}

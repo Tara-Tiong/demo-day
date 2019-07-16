@@ -112,6 +112,7 @@ body{
     height: 100vh;
     width: 0vw;
     transition: all 100ms ease-in-out 300ms;
+    
 }
 
 .main-nav-list::before{
@@ -129,6 +130,7 @@ body{
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     z-index: 2000;
+    
 }
 
 .main-nav-list a{
@@ -140,6 +142,7 @@ body{
     text-align: center;
     text-transform: uppercase;
     transition-delay: 130ms;
+    
 }
 
 .main-nav-list .mobile-hide{/** Hide the link when viewing site on mobile devices. **/

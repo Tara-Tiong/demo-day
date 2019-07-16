@@ -83,6 +83,14 @@ body{
          transition-delay: 150ms;
          transition-duration: 850ms;
 }
+.main-contents div{
+    font-size: 1.1rem;
+    letter-spacing: 1.7px;
+    line-height: 1.35;
+         color: #474145;
+         transition-delay: 150ms;
+         transition-duration: 850ms;
+}
 
 /*** Just getting silly now ***************************/
 .main-footer span{
@@ -285,5 +293,9 @@ h4{
  /* cursor */
  .txt-type > .txt {
      border-right: 0.2rem solid #826872;
+ }
+ .doggo{
+     width: 300px;
+    height: auto;
  }
 

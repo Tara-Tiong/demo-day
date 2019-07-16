@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #fffee3;
+    background-color: #fff5f9;
 }
 
 .wrapper{
@@ -171,7 +171,7 @@ body{
 .main-nav-list.active::before,
 .main-nav-list.active::after{
     width: 25vw;
-/*     transition-duration: 1000ms; */
+    transition-duration: 100ms; 
 }
 .main-nav-list.active ul{
     top: 50%;
@@ -189,7 +189,7 @@ body{
 
 /*** Just getting silly now ***************************/
 .wrapper.active p{
-     color: #5b85c9;
+     color: #fff5f9;
                transition-delay: 150ms;
      transition-duration: 350ms;
 }
@@ -198,29 +198,34 @@ body{
      color: rgb(50, 101, 134);
           transition-duration: 350ms;
 }
+
+
+
+
+          /***************************** end of nav bar */
+
 img.gif{
     width: 300px;
     height: auto;
    }
    h1:hover{
-        color: #fcf197;
+        color: #2e0c55;
  }
  .row {
     display: inline-block;
     width: 100px;
     height: 100px;
     border-radius: 10%;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 100px;
+    border-style: hidden 200px;
   }
   .songs{
     display: inline-block;
     width: 100px;
     height: 100px;
     border-radius: 10%;
-    padding-right: 10px;
-    padding-left: 10px;
     padding: 100px;
+    border-style: hidden 100px;
   }
   img{
       display: inline-block;
@@ -240,12 +245,45 @@ img.gif{
     padding: 20px;   
     font-size: 20px
   }
-  #music{
+  #music, #music2, #music3, #music4,{
       display: inline-block;
       padding-top: 100px;
       
   }
-  #music2{
-    display: inline-block;
+  .sfgif{
+    height: 40vh;
+
+  }
+  body {
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; 
+    height: 100vh;
+    background:#826872; 
+    /* add background  picture */
+    color: #826872;
+    overflow: hidden;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    padding: 0 3rem;
+}
+h3, h4{
+    font-weight: 200;
+    margin: 0.4rem;
+}
+h3{
+    font-size: 3.5rem;
+}
+h4{
+    font-size: 2rem;
+    color: #aaa;
     
 }
+
+ /* cursor */
+ .txt-type > .txt {
+     border-right: 0.2rem solid #826872;
+ }
+

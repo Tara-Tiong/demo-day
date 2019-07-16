@@ -95,7 +95,7 @@ h8{
 h9{
     font-style:oblique;
     font-size:15px;
-    /* margin-left:-30px; */
+    margin-left:-30px;
     position:relative;
     top: 30px;
     right:565px;
@@ -118,4 +118,36 @@ h9{
     bottom: 74px;
     font-size:15px;
     color:#d7d9db;
+}
+#milk{
+    height:310px;
+    width:380px;
+    position: relative;
+    top: -10px;
+    right:-40px;
+}
+#shake{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:310px;  
+}
+#gooey{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:-30px;
+    position:relative;
+    top: 9px;
+    right:300px;
+    color:#aeb2b8
+}
+#brownie{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:-30px;
+    position:relative;
+    top: 30px;
+    right:565px;
+    color:#d7d9db
 }

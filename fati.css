@@ -67,12 +67,26 @@ h7{
 }
 
 #cheese{
-    height:45px;
-    width:57px;
-    /* position: relative;
-    top: -80px;
-    right:360px; */
+    height:310px;
+    width:380px;
+    position: relative;
+    top: -10px;
+    right:-40px;
 }
 h7{
     margin-left: 10px;
+}
+#choco{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:110px;
+}
+h8{
+    font-size:30px;
+    margin-left:10px;
+    position:relative;
+    top: 9px;
+    right:300px;
 }

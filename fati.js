@@ -1,16 +1,16 @@
 
  var myQuestions = [
     {
-        question: "What is 10/2?",
+        question: "Which milkshake?",
         answers: {
-            a: '3',
+            a: 'strawberry',
             b: '5',
             c: '115'
         },
         correctAnswer: 'b'
     },
     {
-        question: "What is 30/3?",
+        question: "Which cheesecake catches your eye?",
         answers: {
             a: '3',
             b: '5',

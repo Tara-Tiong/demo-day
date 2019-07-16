@@ -81,12 +81,23 @@ h7{
     width:360px;
     position: relative;
     top:-10px;
-    right:110px;
+    right:240px;
 }
 h8{
+    font-style:oblique;
     font-size:30px;
-    margin-left:10px;
+    margin-left:-30px;
     position:relative;
     top: 9px;
     right:300px;
+    color:#aeb2b8
+}
+h9{
+    font-style:oblique;
+    font-size:30px;
+    margin-left:-30px;
+    position:relative;
+    top: 9px;
+    right:300px;
+    color:orangered
 }

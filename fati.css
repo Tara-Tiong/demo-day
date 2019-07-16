@@ -81,7 +81,7 @@ h7{
     width:360px;
     position: relative;
     top:-10px;
-    right:310px;
+    right:280px;
 }
 h8{
     font-style:oblique;
@@ -98,7 +98,7 @@ h9{
     margin-left:-30px;
     position:relative;
     top: 30px;
-    right:565px;
+    right:530px;
     color:#d7d9db
 }
 #smores{
@@ -138,7 +138,7 @@ h9{
     font-size:28px;
     margin-left:26px;
     position:relative;
-    top: -30px;
+    top: -160px;
     right:1px;
     color:#aeb2b8
 }
@@ -147,7 +147,21 @@ h9{
     font-size:15px;
     margin-left:590px;
     position:relative;
-    top: -60px;
+    top: -195px;
     right:560px;
     color:#d7d9db
+}
+#chocolate{
+    position: relative;
+    left:399px;
+    bottom: 40px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#confetti{
+    position: relative;
+    left:399px;
+    bottom: 74px;
+    font-size:15px;
+    color:#d7d9db;
 }

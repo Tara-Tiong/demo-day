@@ -239,8 +239,20 @@ img.gif{
     padding: 20px;   
     font-size: 20px
   }
-  #music, #music2, #music3, #music4,{
+  #music, #music2, #music3, #music4
+  {
       display: inline-block;
-      padding-top: 100px;
-      
+      padding-top: 100px;  
   }
+  
+  a:hover {
+    transition-duration: 100ms;
+    background-color:#fffee3;
+    color: #fffee3;
+}
+.hidden {
+    background-color: #fffee3;
+    color: #fffee3;
+    text-align: center;
+    font-size: 6px;
+}

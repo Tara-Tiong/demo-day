@@ -184,7 +184,7 @@ h9{
     font-size:28px;
     margin-left:26px;
     position:relative;
-    top: -160px;
+    top: -39px;
     right:1px;
     color:#aeb2b8
 }
@@ -193,21 +193,21 @@ h9{
     font-size:15px;
     margin-left:590px;
     position:relative;
-    top: -195px;
+    top: -77px;
     right:560px;
     color:#d7d9db
 }
 #green{
     position: relative;
     left:399px;
-    bottom: 40px;
+    bottom: 470px;
     font-size:28px;
     color:#aeb2b8;
 }
 #mints{
     position: relative;
     left:399px;
-    bottom: 74px;
+    bottom: 506px;
     font-size:15px;
     color:#d7d9db;
 }

@@ -8,7 +8,7 @@
 }
 
 body{
-    background-color: #fffee3;
+    background-color: #fff5f9;
 }
 
 .wrapper{
@@ -112,7 +112,6 @@ body{
     height: 100vh;
     width: 0vw;
     transition: all 100ms ease-in-out 300ms;
-    
 }
 
 .main-nav-list::before{
@@ -130,7 +129,6 @@ body{
     transition-duration: 300ms;
     transition-timing-function: ease-in-out;
     z-index: 2000;
-    
 }
 
 .main-nav-list a{
@@ -142,7 +140,6 @@ body{
     text-align: center;
     text-transform: uppercase;
     transition-delay: 130ms;
-    
 }
 
 .main-nav-list .mobile-hide{/** Hide the link when viewing site on mobile devices. **/
@@ -174,7 +171,7 @@ body{
 .main-nav-list.active::before,
 .main-nav-list.active::after{
     width: 25vw;
-/*     transition-duration: 1000ms; */
+    transition-duration: 100ms; 
 }
 .main-nav-list.active ul{
     top: 50%;
@@ -192,7 +189,7 @@ body{
 
 /*** Just getting silly now ***************************/
 .wrapper.active p{
-     color: #5b85c9;
+     color: #fff5f9;
                transition-delay: 150ms;
      transition-duration: 350ms;
 }
@@ -201,12 +198,19 @@ body{
      color: rgb(50, 101, 134);
           transition-duration: 350ms;
 }
+
+h1
+}
+
+
+          /***************************** end of nav bar */
+
 img.gif{
     width: 300px;
     height: auto;
    }
    h1:hover{
-        color: #fcf197;
+        color: #2e0c55;
  }
  .row {
     display: inline-block;
@@ -242,20 +246,12 @@ img.gif{
     padding: 20px;   
     font-size: 20px
   }
-  #music, #music2, #music3, #music4
-  {
+  #music, #music2, #music3, #music4,{
       display: inline-block;
-      padding-top: 100px;  
+      padding-top: 100px;
+      
   }
-  
-  a:hover {
-    transition-duration: 100ms;
-    background-color:#fffee3;
-    color: #fffee3;
-}
-.hidden {
-    background-color: #fffee3;
-    color: #fffee3;
-    text-align: center;
-    font-size: 6px;
-}
+  .sfgif{
+    height: 40vh;
+
+  }

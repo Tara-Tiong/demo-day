@@ -1,9 +1,10 @@
 h2{
+    margin-left: 10px;
     font-size: 30px;
     position: relative;
     top: 30px;
     color: grey;
-    font-style: normal;
+    font-style: Arial;
 }
 #pic{
     height: 50px;
@@ -21,21 +22,28 @@ h2{
 }
 
 h2{
+margin-left: 80PX;
 text-shadow: 0px 3px 13px rgba(0,0,0,.4);
+position: relative;
+right: 430px;
 }
 
 h3{
+   margin-left: 10px;
     font-size: 18px;
 
 }
 h5{
+    margin-left: 12px;
     font-size: 9px;
 }
 h6{
+    margin-left: 10px;
     font-size: 15px;
     color:#f2b6e7;
 }
 h1{
+    margin-left: 10px;
     font-size: 34px;
 }
 h1:hover{
@@ -44,4 +52,209 @@ h1:hover{
 h7{
     font-size: 15px;
     color:#b2b3af;
+}
+#box{
+    height: 500px;
+    width: 700px;
+    background-color: #696b6e;
+}
+#text{
+    font-size: 70px;
+    font-style: oblique;
+    position: relative;
+    top: 70px;
+    color:#dfe2e8;
+}
+
+#cheese{
+    height:310px;
+    width:380px;
+    position: relative;
+    top: -10px;
+    right:-40px;
+}
+h7{
+    margin-left: 10px;
+}
+#choco{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:280px;
+}
+h8{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:-30px;
+    position:relative;
+    top: 9px;
+    right:300px;
+    color:#aeb2b8
+}
+h9{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:-30px;
+    position:relative;
+    top: 30px;
+    right:530px;
+    color:#d7d9db
+}
+#smores{
+    position: relative;
+    left:399px;
+    bottom: 40px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#smores:hover{
+    transform: translate(10, 10);
+}
+
+#cheesecake{
+    position: relative;
+    left:399px;
+    bottom: 74px;
+    font-size:15px;
+    color:#d7d9db;
+}
+#milk{
+    height:310px;
+    width:380px;
+    position: relative;
+    top: -10px;
+    right:-40px;
+}
+#shake{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-19px;  
+}
+#gooey{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -160px;
+    right:1px;
+    color:#aeb2b8
+}
+#brownie{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -195px;
+    right:560px;
+    color:#d7d9db
+}
+#chocolate{
+    position: relative;
+    left:399px;
+    bottom: 40px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#confetti{
+    position: relative;
+    left:399px;
+    bottom: 74px;
+    font-size:15px;
+    color:#d7d9db;
+}
+#vanilla{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-36px;
+}
+#mint{
+    height:310px;
+    width:380px;
+    position: relative;
+    top:-443px;
+    right:-386px;   
+}
+#french{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#van{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#green{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#mints{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}
+#apple{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-36px;
+}
+#pumpkin{
+    height:310px;
+    width:380px;
+    position: relative;
+    top:-443px;
+    right:-386px;  
+     
+}
+#pie{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#pietwo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#piethree{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#piefour{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
 }

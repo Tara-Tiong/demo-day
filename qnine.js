@@ -1,17 +1,23 @@
-//var input = document.getElementById('myInput');
-
-//if(input.value.length == 0)
- 
-var userInput =
-document.querySelector('#check').onclick = function() {
-     if (right) {
+var userInput = document.querySelector('#check').onclick = function() {
+     if (right === '4+5') {
          window.location.replace('qten.html');
      } else {
          window.location.replace('nawww.html');
      }
  }
-//document.querySelector('#right').onclick = function() {
-   // console.log('working')
-   // window.location.replace('https://www.youtube.com/watch?v=ZEeckZM-z84');
-//}
-  //a.href
+
+var userCheck = document.querySelector('#check').onclick = function() {
+    var e = document.getElementById('answer')
+    var answer = e.options[e.selectedIndex].text
+    console.log(answer)
+}
+
+if (userInput == userCheck){
+    window.location.href = 'qten.html';
+} else {
+    window.location.href = 'nawww.html';
+}
+
+// document.querySelector('#check').onclick = function() {
+//     window.location.href = 'qten.html';
+// }

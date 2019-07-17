@@ -223,5 +223,24 @@ h9{
     width:380px;
     position: relative;
     top:-443px;
-    right:-386px;   
+    right:-386px;  
+     
+}
+#pie{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#pietwo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
 }

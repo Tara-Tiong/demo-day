@@ -85,6 +85,9 @@ function init(){
     // init typewriter
     new Typewriter(txtElement,words,wait);
 }
+h4{
+    font-size: 50px;
+}
 
 
 

@@ -9,7 +9,7 @@ document.querySelector('#memory').onclick = function() {
     if (userIn == 'b') {
         window.location.replace('qnine.html');
     } else {
-        window.location.replace('uhno.html');
+        window.location.replace('hellnaw.html');
     }
 
 }

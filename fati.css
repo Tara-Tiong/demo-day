@@ -44,7 +44,7 @@ h6{
 }
 h1{
     margin-left: 10px;
-    font-size: 34px;
+    font-size: 30px;
 }
 h1:hover{
    color: #5b85c9; 
@@ -216,11 +216,11 @@ h9{
     width:360px;
     position: relative;
     top:-10px;
-    right:-36px;
+    right:-45px;
 }
 #pumpkin{
     height:310px;
-    width:380px;
+    width:370px;
     position: relative;
     top:-443px;
     right:-386px;  
@@ -252,6 +252,52 @@ h9{
     color:#aeb2b8;
 }
 #piefour{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}
+#cherry{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-45px;
+}
+#pecan{
+    height:310px;
+    width:370px;
+    position: relative;
+    top:-443px;
+    right:-386px;  
+}
+#piefive{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#piesix{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#pieseven{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#pieeight{
     position: relative;
     left:399px;
     bottom: 506px;

@@ -211,3 +211,50 @@ h9{
     font-size:15px;
     color:#d7d9db;
 }
+#apple{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-36px;
+}
+#pumpkin{
+    height:310px;
+    width:380px;
+    position: relative;
+    top:-443px;
+    right:-386px;  
+     
+}
+#pie{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#pietwo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#piethree{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#piefour{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}

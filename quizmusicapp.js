@@ -53,7 +53,7 @@ var questions = [
     new Question("What is the most popular musical instrument to learn?", ["Flute", "Piano", "Violin", "Clarinet"], "Violin"),
     new Question("What is the easiet instrument to learn?", ["Ukelele", "Piano", "Violin", "Trumpet"], "Ukelele"),
     new Question("Who is the most famous classical music composer?", ["Tschaikovsky", "Beethoven", "Mozart", "Wagner"], "Beethoven"),
-    new Question("Which is the most popular song of 2019?", ["Old Town Road (Lil Nas X ft. Billy Ray Cyrus)", "Call You Mine (The Chainsmokers ft. Bebe Rexha)", "Senorita (Shawn Mendes & Camila Cabello)", "Bad Guy (Billie Eilish)"], "Old Town Road (Lil Nas X ft. Billy Ray Cyrus)"),
+    new Question("Which is the most popular song of 2019?", ["Old Town Road", "Call You Mine", "Senorita", "Bad Guy"], "Old Town Road"),
 ];
 
 var quiz = new Quiz (questions);

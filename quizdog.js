@@ -35,13 +35,16 @@ function showQuestion(question) {
       button.dataset.correct = answer.correct
       //if sessionStorage.getItem('points') = 'null'
       sessionStorage.setItem('points', 1)
-      else{
-        
+    } else {
+     var points = sessionStorage.getItem("points")
+     points= Number(points);
+     points += 1
+     sessionStorage.setItem('points', points)
       }
       //else get item
       //convert iem to number
       // add one to item
-    }
+    
     button.addEventListener('click', selectAnswer)
     answerButtonsElement.appendChild(button)
   })
@@ -146,12 +149,20 @@ const questions = [
     ]
   },
   {
-    question: '?',
+    question: 'Can dogs get jealous when their owner pets another dog?',
     answers: [
-      { text: '340', correct: true },
-      { text: '200', correct: false },
-      { text: '150', correct: false },    
-      { text: '100', correct: false },
+      { text: 'Yes', correct: true },
+      { text: 'No', correct: false },
+
+    ]
+  },
+  {
+    question: 'What were Dachshunds bred for?',
+    answers: [
+      { text: 'To fight badgers', correct: true },
+      { text: 'To eat your food', correct: false },
+      { text: 'Be annoying', correct: false },     
+      { text: 'Peeing in your lawn', correct: false },
 
     ]
   }

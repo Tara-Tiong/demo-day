@@ -3,13 +3,13 @@ var input = document.getElementById('myInput');
 
 document.querySelector('#test').onclick = function() {
     var userIn = document.querySelector('#myInput').value;
-    var right = 'ec_ni83$^+jew_yes__'
+    var right = 'Im_Possible Quiz'
     if (userIn == right) {
         console.log('right')
-        window.location.replace('qsix.html');
+        window.location.replace('finale.html');
     } else {
         document.querySelector('h1').innerHTML = 'You are Wrong!!!!!!';
-        window.location.replace('incorrect.html');
+        window.location.replace('nexttime.html');
     }
 
 }

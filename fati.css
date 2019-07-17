@@ -244,3 +244,17 @@ h9{
     right:560px;
     color:#d7d9db
 }
+#piethree{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#piefour{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}

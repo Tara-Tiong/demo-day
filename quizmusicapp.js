@@ -14,9 +14,7 @@ function populate() {
             element.innerHTML = choices[i];
             guess("btn" + i, choices[i]);
         }
-
         showProgress();
-
     } 
 };
 
@@ -32,8 +30,6 @@ function showProgress() {
     var currentQuestionNumber = quiz.questionIndex + 1;
     var element = document.getElementById("progress");
     element.innerHTML = "Question" + currentQuestionNumber + "of" + quiz.questions.length;
-
-
 };
 
 function showScores() {
@@ -56,6 +52,6 @@ var questions = [
     new Question("Which is the most popular song of 2019?", ["Old Town Road", "Call You Mine", "Senorita", "Bad Guy"], "Old Town Road"),
 ];
 
-var quiz = new Quiz (questions);
+var quiz = new Quiz(questions);
 
 populate();

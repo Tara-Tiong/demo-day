@@ -2,13 +2,15 @@ h3{
     text-align: center;
     margin-top: 360px;
     font-size: 30px;
+    font-family: Courier New;
+    color: #8c2257;
 }
 .container{
     text-align: center;
     margin-left: 200px;
 }
 .btn{
-    border: 1px solid #6760a3;
+    border: 1px solid #8c2257;
     background: none;
     padding: 10px 20px;
     font-size: 20px;
@@ -20,7 +22,7 @@ h3{
     overflow: hidden;
 }
 .btn1, .btn2{
-    color:#6760a3;
+    color:#8c2257;
 }
 .btn3, btn4{
     color: #fff;
@@ -29,7 +31,7 @@ h3{
     color: #fff;
 }
 .btn3:hover, .btn4:hover{
-    color: #6760a3;
+    color: #8c2257;
 }
 .btn: :before{
     content:"";

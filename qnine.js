@@ -1,3 +1,5 @@
+// localStorage.setItem('answer', '4+5');
+
 var userInput = document.querySelector('#check').onclick = function() {
      if (right === '4+5') {
          window.location.replace('qten.html');
@@ -12,12 +14,11 @@ var userCheck = document.querySelector('#check').onclick = function() {
     console.log(answer)
 }
 
-if (userInput == userCheck){
-    window.location.href = 'qten.html';
-} else {
-    window.location.href = 'nawww.html';
+document.querySelector('#check').onclick = function (){
+    if (userInput == userCheck){
+        window.location.href = 'qten.html';
+    } else {
+        // window.location.href = 'nawww.html';}    
 }
 
-// document.querySelector('#check').onclick = function() {
-//     window.location.href = 'qten.html';
-// }
+}

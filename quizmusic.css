@@ -22,7 +22,7 @@ body{
     border-radius: 50px;
 }
 .grid #question{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: TrebuchetMS;
     font-size: 30px;
     color:#1c2f97;
 }
@@ -49,7 +49,7 @@ body{
 
 #btn0:hover, #btn1:hover, #btn2:hover, #btn3:hover{
     cursor: pointer;
-    background-color: #576363 ;
+    background-color: #576363;
 }
 
 #btn0:focus, #btn1:focus, #btn2:focus, #btn3:focus{

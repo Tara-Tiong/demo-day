@@ -4,6 +4,7 @@ const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
 
+
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -30,21 +31,26 @@ function showQuestion(question)
     question.answers.forEach(answer => {  
    const button = document.createElement('button')   
      button.innerText = answer.text 
+     var value = sessionStorage.getItem("Points")
+    document.querySelector("#points").innerHTMl = value
     button.classList.add('btn')  
-  if (answer.correct) {  
-     button.dataset.correct = answer.correct  
-     // if sessionStorage.getItem('points') = 'null'
-    sessionStorage.setItem('points', 1)     
-} else {
-  var points = sessionStorage.getItem("points") 
-    points= Number(points);    
-      points += 1    
-        sessionStorage.setItem('points', points)       }  
-             //else get item    
-                //convert iem to number   
-                    // add one to item     
-      button.addEventListener('click', selectAnswer)    
-   answerButtonsElement.appendChild(button)}) } 
+    if (answer.correct) {
+      if(sessionStorage.getItem("Points")==null){
+        sessionStorage.setItem("Points",1)
+        console.log('created')
+      }else{
+        var myPoints=sessionStorage.getItem("Points")
+        myPoints=Number(myPoints)
+        myPoints=myPoints+5
+        sessionStorage.setItem("Points",myPoints)
+        console.log('added')
+      }
+      button.dataset.correct = answer.correct
+    }
+    button.addEventListener('click', selectAnswer)
+    answerButtonsElement.appendChild(button)
+  })
+} 
 
 function resetState() {
   clearStatusClass(document.body)
@@ -64,6 +70,7 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
+        
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
   }

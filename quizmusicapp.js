@@ -34,11 +34,11 @@ function showProgress() {
     element.innerHTML = "Question" + currentQuestionNumber + "of" + quiz.questions.length;
 
 
-}
+};
 
 function showScores() {
     var gameOverHtml = "<h1>Result</h1>"
-    gameOverHtml += "<h2 id= 'score> Your scores: " + quiz.scores + "</h2>";
+    gameOverHtml += "<h2 id= 'score'> Your scores: " + quiz.scores + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 };

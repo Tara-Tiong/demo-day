@@ -41,7 +41,7 @@ function showQuestion(question)
       }else{
         var myPoints=sessionStorage.getItem("Points")
         myPoints=Number(myPoints)
-        myPoints=myPoints+5
+        myPoints=myPoints+1
         sessionStorage.setItem("Points",myPoints)
         console.log('added')
       }
@@ -90,7 +90,7 @@ function clearStatusClass(element) {
   element.classList.remove('wrong')
 }
 
-const questions = [
+var questions = [
   {
     question: 'Which of these dog breeds originated from Alaska?',
     answers: [

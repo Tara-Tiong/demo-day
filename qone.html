@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+        <title>Im_Possible Quiz</title>
     <h3>0+1=1. Figure out this problem: (6^2+1)-4(4*2)=</h3>
-    <input id = 'myInput' type="text" placeholder="type what's not shown:)"><br>
- 
+   <input id = 'myInput' type="text" placeholder="type what's not shown :)"><br> 
 </head>
 
 <body>
-    <ul>
-        A. 3<br>
-        B. 8<br>
-        C. 6<br>
-        D. 2
+   <ul>
+        d. 3<br>
+        c. 8<br>
+        a. 6<br>
+        b. 2
     </ul>
    <button id = 'test'>Is it right?</button>
+   <div id='calc-contain'>
+  
+        <form name="calculator">
+          
+          <input type="text" name="answer" />
+          <br>
+          
+          <input type="button" value=" 1 " onclick="calculator.answer.value += '1'" />
+          <input type="button" value=" 2 " onclick="calculator.answer.value += '2'" />
+          <input type="button" value=" 3 " onclick="calculator.answer.value += '3'" />
+          <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+          <br/>
+          
+          <input type="button" value=" 4 " onclick="calculator.answer.value += '4'" />
+          <input type="button" value=" 5 " onclick="calculator.answer.value += '5'" />
+          <input type="button" value=" 6 " onclick="calculator.answer.value += '6'" />
+          <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+          </br>
+        
+          <input type="button" value=" 7 " onclick="calculator.answer.value += '7'" />
+          <input type="button" value=" 8 " onclick="calculator.answer.value += '8'" />
+          <input type="button" value=" 9 " onclick="calculator.answer.value += '9'" />
+          <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+          </br>
+      
+          <input type="button" value=" c " onclick="calculator.answer.value = ''" />
+          <input type="button" value=" 0 " onclick="calculator.answer.value += '0'" />
+          <input type="button" value=" = " onclick="calculator.answer.value = eval(calculator.answer.value)" />
+          <input type="button" value=" / " onclick="calculator.answer.value += '/'" />
+          </br>
+
+  
+        </form>
+        <div id="agh">
+          <p>kindly provided
+        </div>
+      </div>
+      <link rel="stylesheet" href="qone.css">
 </body>
 <script src='qone.js'></script>
 </html>

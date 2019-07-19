@@ -1,5 +1,17 @@
 body{
     position: absolute;
-    bottom: 50px;
-    width: 50%;
+    bottom: 20px;
+    width: 100%;
+}
+h3,ul{
+    color: #57228c;
+    font-size: 27px;
+    font-family: Courier New;
+}
+h3{
+    text-decoration: underline;
+}
+#first, #second, #third{
+    height:400px;
+    width:400px;
 }

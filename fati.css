@@ -489,3 +489,50 @@ h9{
     font-size:15px;
     color:#d7d9db;
 }
+#v{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-45px;
+}
+#g{
+    height:310px;
+    width:370px;
+    position: relative;
+    top:-443px;
+    right:-386px;  
+     
+}
+#vo{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#voo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#vooo{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#voooo{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}

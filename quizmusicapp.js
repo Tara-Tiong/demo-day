@@ -52,6 +52,6 @@ var questions = [
     new Question("Which is the most popular song of 2019?", ["Old Town Road", "Call You Mine", "Senorita", "Bad Guy"], "Old Town Road"),
 ];
 
-var quiz = new Quiz (questions);
+var quiz = new Quiz(questions);
 
 populate();

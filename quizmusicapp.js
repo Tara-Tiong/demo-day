@@ -29,12 +29,12 @@ function guess(id, guess) {
 function showProgress() {
     var currentQuestionNumber = quiz.questionIndex + 1;
     var element = document.getElementById("progress");
-    element.innerHTML = "Question" + currentQuestionNumber + "of" + quiz.questions.length;
+    element.innerHTML = "Question" + " " + currentQuestionNumber+  " of " + quiz.questions.length;
 };
 
 function showScores() {
     var gameOverHtml = "<h1>Result</h1>"
-    gameOverHtml += "<h2 id= 'score'> Your scores: " + quiz.scores + "</h2>";
+    gameOverHtml += "<h2 id= 'score'> Your scores: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 };

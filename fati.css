@@ -683,7 +683,8 @@ h9{
     background-color: #696b6e; 
 }
 #textt{
-    font-size: 70px;
+    font-size: 20px;
+    font-style:oblique;
     position: relative;
     top: 70px;
     color:#dfe2e8;

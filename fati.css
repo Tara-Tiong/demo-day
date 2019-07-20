@@ -304,3 +304,141 @@ h9{
     font-size:15px;
     color:#d7d9db;
 }
+#cro{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-45px;
+}
+#sant{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-443px;
+    right:-400px;
+}
+#croone{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#crotwo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#crothree{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#crofour{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}
+#funnel{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-45px;
+}
+#nets{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-443px;
+    right:-400px;
+}
+#a{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#b{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#c{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#d{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}
+#Cin{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-10px;
+    right:-45px;
+}
+#driz{
+    height:310px;
+    width:360px;
+    position: relative;
+    top:-443px;
+    right:-400px;
+}
+#cinone{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+#cintwo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#cinthree{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#cinfour{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}

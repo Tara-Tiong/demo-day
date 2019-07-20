@@ -583,3 +583,50 @@ h9{
     font-size:15px;
     color:#d7d9db;
 }
+#lasagna{
+    height:310px;
+    width:400px;
+    position: relative;
+    top:-10px;
+    right:-45px;
+}
+#Fried{
+    height:310px;
+    width:370px;
+    position: relative;
+    top:-443px;
+    right:-386px;  
+     
+}
+#ro{
+    font-style:oblique;
+    font-size:28px;
+    margin-left:26px;
+    position:relative;
+    top: -39px;
+    right:-5px;
+    color:#aeb2b8
+}
+#roo{
+    font-style:oblique;
+    font-size:15px;
+    margin-left:590px;
+    position:relative;
+    top: -77px;
+    right:555px;
+    color:#d7d9db
+}
+#rooo{
+    position: relative;
+    left:399px;
+    bottom: 470px;
+    font-size:28px;
+    color:#aeb2b8;
+}
+#roooo{
+    position: relative;
+    left:399px;
+    bottom: 506px;
+    font-size:15px;
+    color:#d7d9db;
+}

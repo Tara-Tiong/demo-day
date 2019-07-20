@@ -1,12 +1,14 @@
 body{
     background-image: url("http://getwallpapers.com/wallpaper/full/2/c/a/934327-cool-pastel-background-images-2560x1440.jpg");
     text-align: center;
-    margin-top: 300px;
+    margin-top: 200px;
     font-size: 45px;
 }
 
-p {
+h2,h4 {
     font-family: TrebuchetMS;
+    color: #fff;
+    font-size: 37px;
 }
 
 h5 {

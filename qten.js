@@ -3,7 +3,7 @@ var input = document.getElementById('myInput');
 
 document.querySelector('#test').onclick = function() {
     var userIn = document.querySelector('#myInput').value;
-    var right = 'Im_Possible Quiz'
+    var right = 'it'
     if (userIn == right) {
         console.log('right')
         window.location.replace('finale.html');

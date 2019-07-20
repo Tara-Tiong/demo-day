@@ -4,3 +4,35 @@ body{
 h4{
     text-decoration: underline;
 }
+#Mitchell{
+    color:#313233
+    font-style: oblique;
+    /* margin-right:100px; */
+    text-align: left;
+    font-weight: bold
+}
+#Santa{
+    color:#696b6e;
+    font-style: oblique;
+    /* margin-right:100px; */
+    text-align: left;
+    color:#696b6e;
+}
+#im{
+    color:#696b6e;
+    font-style: oblique;   
+}
+#good{
+    color:#696b6e;
+    font-style: oblique;
+}
+#z{
+    color:#696b6e;
+    font-style: oblique;
+}
+#x{
+    text-align: left;
+    margin-left: 320px;
+    color:#696b6e;
+
+}

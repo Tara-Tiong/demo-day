@@ -1,6 +1,6 @@
 ul, h3, #test{
     font-size: 30px;
-    color:#fab920;
+    color:#ff9900;
     font-family: Courier New;
 }
 
@@ -22,7 +22,7 @@ ul, h3, #test{
     font-weight: 900;
   }
   input[type=button] {
-    background: lightGray;
+    background: rgb(255, 255, 255);
     width: 20%;
     font-size: 20px;
     font-weight: 900;
@@ -36,7 +36,7 @@ ul, h3, #test{
     transform: translateY(4px);
   }
   input[type=button]:hover {
-    background-color: #003300;
+    background-color: #b95217;
     color: white;
   }
   
@@ -48,4 +48,13 @@ ul, h3, #test{
     font-size: 20px;
     padding: 10px;
     box-shadow: 4px 0px 12px black inset;
+  }
+
+  body {
+    background-image: url("https://wallpaperplay.com/walls/full/5/2/c/107697.jpg")
+  }
+
+  p {
+    color: white;
+    font-family: Andale Mono;
   }

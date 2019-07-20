@@ -149,7 +149,7 @@
             correct++;
           }
         }
-        score.append('Congradulations, you scored ' + correct + ' out of ' +allQuestions.length);
+        score.append('Congratulations, you scored ' + correct + ' out of ' +allQuestions.length);
         return score;
   }
 })();

@@ -3,3 +3,11 @@ body{
     margin-top: 300px;
     font-size: 45px;
 }
+
+p {
+    font-family: TrebuchetMS;
+}
+
+h5 {
+    font-family: Andale Mono;
+}

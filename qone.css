@@ -7,7 +7,7 @@ ul, h3, #test{
 #calc-contain{
     position: relative;
     width: 400px;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 255, 255);
     border-radius: 12px;
     margin: 0px auto;
     padding: 20px 20px 100px 20px;
@@ -51,7 +51,7 @@ ul, h3, #test{
   }
 
   body {
-    background-image: url("https://wallpaperplay.com/walls/full/5/2/c/107697.jpg")
+    background-image: url("http://backgroundlabs.com/files/striped-dark-background-1780.png")
   }
 
   p {

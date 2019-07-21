@@ -677,9 +677,14 @@ h9{
     color:#d7d9db;
 }
 #boxx{
-    height: 500px;
+    height: 300px;
     width: 700px;
     background-color: #696b6e; 
+    Position:relative;
+    Left: 100 px;
+    Right: 100 px;
+    display:inline-block;
+    top:-750px;
 }
 #textt{
     font-size: 15px;
@@ -705,10 +710,10 @@ h9{
     color: #dfe2e8;
     font-style: Arial; 
 }
-.somethingg{height:100px;
-    width:100px;
+.somethingg{height:800px;
+    width:800px;
     Position:relative;
     Left: 100 px;
-    Right: 500 px;
-    background-color: red;
+    Right: 100 px;
+    background-color: #6ca8ad;
 }

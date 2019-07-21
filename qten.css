@@ -1,17 +1,21 @@
 body{
-    font-size: 20px;
+    font-size: 30px;
     text-align: end;
     position: absolute;
     bottom: 50px;
     right: 50px;
+    font-family: ArialRoundedMTBold; 
 }
 #myInput{
-    font-size: 60px;
+    font-size: 50px;
+    font-family: Geneva;
 }
 #test{
-    font-size: 100px;
+    font-size: 50px;
+    font-family: Andale Mono;
 }
 h4{
     color: #ffffff;
     font-size: 40px;
+    font-family: Geneva;
 }

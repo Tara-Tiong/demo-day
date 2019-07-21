@@ -685,13 +685,16 @@ h9{
     Right: 100 px;
     display:inline-block;
     top:-320px;
+    font-style:oblique;
+    color:#aeb2b8;
 }
 #textt{
+    margin-left: 10px;
     font-size: 15px;
     font-style: oblique;
     position: relative;
-    top: 5px;
-    color:#dfe2e8;
+    top: -16px;
+    color:#ffffff;
 }
 #pid{
     margin-left: 10px;
@@ -706,8 +709,8 @@ h9{
     margin-left: 410px;
     font-size: 15px;
     position: relative;
-    top: -110px;
-    color: #ffffff;
+    top: -220px;
+    color: white;
     font-style: Arial; 
 }
 .somethingg{height:380px;
@@ -715,11 +718,23 @@ h9{
     Position:relative;
     Left: 100 px;
     Right: 100 px;
-    background-color: #6ca8ad;
+    background-color: #aeb2b8;
 top:-30px;
 font-size: 15px;
 font-style: oblique;
 position: relative;
 top: 5px;
 color:#dfe2e8;
+}
+#teext{
+    color:black;
+    font-size: 30px;
+    Right:20 px;
+    left:4 px;
+    font-style: oblique;
+    position: relative;
+    top: 25px;
+}
+#tex{
+
 }

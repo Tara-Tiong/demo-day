@@ -685,6 +685,8 @@ h9{
     Right: 100 px;
     display:inline-block;
     top:-320px;
+    font-style:oblique;
+    color:#aeb2b8;
 }
 #textt{
     font-size: 15px;
@@ -722,4 +724,13 @@ font-style: oblique;
 position: relative;
 top: 5px;
 color:#dfe2e8;
+}
+#teext{
+    color:#aeb2b8;
+    font-size: 30px;
+    Right:60px;
+    left:4px;
+    font-style: oblique;
+    position: relative;
+    top: -16px;
 }

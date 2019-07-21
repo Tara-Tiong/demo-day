@@ -7,7 +7,7 @@
     answer: 0
   }, {
     question: "What sneaker is this? Jordan 11...",
-    options: ["Cherry", "Gym Red", "Chicago", "Bred"],
+    options: ["Cherry", "Gym Red", "Supreme Custom", "Bred"],
     answer: 3
   }, {
     question: "What sneaker is this? Air Max 1...",
@@ -22,8 +22,8 @@
     options: ["Velvet Round Toe", "Velvet Red", "Camo", "Velvet Maroon"],
     answer: 1
   },{
-    question: "What sneaker is this? Lebron 8...",
-    options: ["Entourage", "Chase Down", "Sprite", "South Beach"],
+    question: "What sneaker is this? Lebron 8 V/2...",
+    options: ["Entourage", "China", "Sprite", "South Beach"],
     answer: 3
   },{
     question: "What sneaker is this? Yeezy Boost 700",

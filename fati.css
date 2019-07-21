@@ -689,6 +689,7 @@ h9{
     color:#aeb2b8;
 }
 #textt{
+    margin-left: 10px;
     font-size: 15px;
     font-style: oblique;
     position: relative;
@@ -733,4 +734,7 @@ color:#dfe2e8;
     font-style: oblique;
     position: relative;
     top: 25px;
+}
+#tex{
+
 }

@@ -679,7 +679,7 @@ h9{
 #boxx{
     height: 300px;
     width: 700px;
-    background-color: #696b6e; 
+    background-color: #ffffff; 
     Position:relative;
     Left: 100 px;
     Right: 100 px;
@@ -706,8 +706,8 @@ h9{
     margin-left: 410px;
     font-size: 15px;
     position: relative;
-    top: -150px;
-    color: #dfe2e8;
+    top: -110px;
+    color: #ffffff;
     font-style: Arial; 
 }
 .somethingg{height:380px;

@@ -26,6 +26,7 @@ right: 430px;
 }
 
 
+
 h3{
    margin-left: 10px;
     font-size: 18px;
@@ -681,10 +682,10 @@ h9{
     background-color: #696b6e; 
 }
 #textt{
-    font-size: 20px;
+    font-size: 15px;
     font-style: oblique;
     position: relative;
-    top: 70px;
+    top: 5px;
     color:#dfe2e8;
 }
 #pid{

@@ -1,4 +1,5 @@
 body{
+    background-image: url(http://armyblog.ru/images/000/DSC100038901.jpg);
     position: absolute;
     bottom: 20px;
     width: 100%;
@@ -15,3 +16,4 @@ h3{
     height:400px;
     width:400px;
 }
+

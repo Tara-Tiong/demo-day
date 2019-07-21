@@ -15,7 +15,7 @@
     answer: 1
   },{
     question: "What sneaker is this? Nike Dunk...",
-    options: ["Low Sea Crystal", "Clear Jade", "Tiffany", "Diamond Supply Co"],
+    options: ["Low Sea Crystal", "Clear Jade", "Tiffany", "Diamond Supply Co. Collab"],
     answer: 2
   }, {
     question: "What sneaker is this? Fenty x Puma...Creepers",
@@ -23,7 +23,7 @@
     answer: 1
   },{
     question: "What sneaker is this? Lebron 8...",
-    options: ["Entourage", "City Edition", "Sprite", "South Beach"],
+    options: ["Entourage", "Chase Down", "Sprite", "South Beach"],
     answer: 3
   },{
     question: "What sneaker is this? Yeezy Boost 700",
@@ -31,15 +31,15 @@
     answer: 2
   },{
     question: "What sneaker is this? Kyrie 5...",
-    options: ["Black History Month", "Concepts Ikhet", "Mamba", "Multi-color"],
+    options: ["Black History Month", "Concepts Ikhet Multi-Color", "Mamba Mentality", "Spongebob and Patrick"],
     answer: 0
   },{
     question: "What heel is this? Christian Louboutin...",
-    options: ["Tan Follies", "Pigalle Nude", "Tan Nude Pigalle", "Pigalle Follies"],
+    options: ["Pigalle 100mm Nude", "Pigalle 120mm Nude", "Pigalle 85mm Nude", "Pigalle 70mm Nude"],
     answer: 1
   },{
     question: "What sneaker is this? Air Max 97...",
-    options: ["Gold", "Metallic Gold Pack", "Metallic Gold", "Sean Wotherspoon"],
+    options: ["Barcode", "Metallic Gold Pack", "Metallic Gold", "Sean Wotherspoon"],
     answer: 2
     }];
   
@@ -149,7 +149,7 @@
             correct++;
           }
         }
-        score.append('Congradulations, you scored ' + correct + ' out of ' +allQuestions.length);
+        score.append('Congratulations, you scored ' + correct + ' out of ' +allQuestions.length);
         return score;
   }
 })();

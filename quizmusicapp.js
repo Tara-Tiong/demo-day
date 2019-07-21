@@ -29,12 +29,12 @@ function guess(id, guess) {
 function showProgress() {
     var currentQuestionNumber = quiz.questionIndex + 1;
     var element = document.getElementById("progress");
-    element.innerHTML = "Question" + currentQuestionNumber + "of" + quiz.questions.length;
+    element.innerHTML = "Question" + " " + currentQuestionNumber+  " of " + quiz.questions.length;
 };
 
 function showScores() {
     var gameOverHtml = "<h1>Result</h1>"
-    gameOverHtml += "<h2 id= 'score'> Your scores: " + quiz.scores + "</h2>";
+    gameOverHtml += "<h2 id= 'score'> Your scores: " + quiz.score + "</h2>";
     var element = document.getElementById("quiz");
     element.innerHTML = gameOverHtml;
 };
@@ -47,7 +47,7 @@ var questions = [
     new Question("How many musical instruments are there in the world?", ["100-200", "300-500", "600-800", "1000+"], "1000+"),
     new Question("What was the first instrument to be invented?", ["Violin", "Flute", "Drum", "Harp"], "Flute"),
     new Question("What is the most popular musical instrument to learn?", ["Flute", "Piano", "Violin", "Clarinet"], "Violin"),
-    new Question("What is the easiet instrument to learn?", ["Ukelele", "Piano", "Violin", "Trumpet"], "Ukelele"),
+    new Question("What is the easiet instrument to learn?", ["Ukulele", "Piano", "Violin", "Trumpet"], "Ukulele"),
     new Question("Who is the most famous classical music composer?", ["Tschaikovsky", "Beethoven", "Mozart", "Wagner"], "Beethoven"),
     new Question("Which is the most popular song of 2019?", ["Old Town Road", "Call You Mine", "Senorita", "Bad Guy"], "Old Town Road"),
 ];

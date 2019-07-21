@@ -5,6 +5,10 @@ h2{
     top: 30px;
     color: grey;
     font-style: Arial;
+    margin-left: 130px;
+text-shadow: 0px 3px 13px rgba(0,0,0,.4);
+position: relative;
+right: 430px;
 }
 #pic{
     height: 50px;
@@ -21,12 +25,6 @@ h2{
     display: inline-block;
 }
 
-h2{
-margin-left: 130px;
-text-shadow: 0px 3px 13px rgba(0,0,0,.4);
-position: relative;
-right: 430px;
-}
 
 h3{
    margin-left: 10px;
@@ -688,4 +686,13 @@ h9{
     position: relative;
     top: 70px;
     color:#dfe2e8;
+}
+#pid{
+    margin-left: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    color: grey;
+    font-style: Arial;
+    text-shadow: 0px 3px 13px rgba(0,0,0,.4);
 }

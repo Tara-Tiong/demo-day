@@ -17,7 +17,7 @@ right: 430px;
     right: -500px;
     top: 30px;
     display: inline-block;
-    /* padding: 50px;  */
+    padding: 50px; 
 }
 #test{
     height: 300px;

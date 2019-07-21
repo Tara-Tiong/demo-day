@@ -698,10 +698,16 @@ h9{
     text-shadow: 0px 3px 13px rgba(0,0,0,.4);
 }
 #piid{
-    margin-left: 10px;
+    margin-left: 410px;
     font-size: 15px;
     position: relative;
-    top: 30px;
-    color: grey;
+    top: -490px;
+    color: #dfe2e8;
     font-style: Arial; 
+}
+.somethingg{height:100px;
+    width:100px;
+    Position:relative;
+    Left: 100 px;
+    Right: 100 px;
 }

@@ -42,7 +42,7 @@ function showQuestion(question)
         var myPoints=sessionStorage.getItem("Points")
         myPoints=Number(myPoints)
         myPoints=myPoints+1
-        sessionStorage.setItem("Points",myPoints)
+        sessionStorage.setItem("Points", myPoints)
         console.log('added')
       }
       button.dataset.correct = answer.correct
@@ -70,7 +70,10 @@ function selectAnswer(e) {
   if (shuffledQuestions.length > currentQuestionIndex + 1) {
     nextButton.classList.remove('hide')
   } else {
-        
+    console.log('made it')
+    var output = document.getElementById('Points')
+    var finalScore = sessionStorage.getItem('Points')
+    output.innerHTML = finalScore
     startButton.innerText = 'Restart'
     startButton.classList.remove('hide')
   }

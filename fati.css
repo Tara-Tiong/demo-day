@@ -22,7 +22,7 @@ h2{
 }
 
 h2{
-margin-left: 80PX;
+margin-left: 130px;
 text-shadow: 0px 3px 13px rgba(0,0,0,.4);
 position: relative;
 right: 430px;
@@ -676,4 +676,16 @@ h9{
     bottom: 506px;
     font-size:15px;
     color:#d7d9db;
+}
+#boxx{
+    height: 500px;
+    width: 700px;
+    background-color: #696b6e; 
+}
+#textt{
+    font-size: 20px;
+    font-style: oblique;
+    position: relative;
+    top: 70px;
+    color:#dfe2e8;
 }

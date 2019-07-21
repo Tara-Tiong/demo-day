@@ -726,11 +726,11 @@ top: 5px;
 color:#dfe2e8;
 }
 #teext{
-    color:#aeb2b8;
+    color:black;
     font-size: 30px;
-    Right:60px;
-    left:4px;
+    Right:20 px;
+    left:4 px;
     font-style: oblique;
     position: relative;
-    top: -16px;
+    top: 25px;
 }

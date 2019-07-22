@@ -90,7 +90,7 @@ body {
   margin: 4px;
   padding: 8px;
   background: rgb(184, 218, 255);
-  color: rgb(36, 54, 134);
+  color: rgb(0, 0, 0);
   width: calc(50% - 8px);
   min-width: 100px;
   cursor: pointer;
@@ -102,7 +102,7 @@ body {
 
 #question input[type=radio]:checked + label {
   background: rgb(252, 218, 67);
-  color: rgb(107, 37, 37);
+  color: rgb(0, 0, 0);
 }
 
 #quiz-results {

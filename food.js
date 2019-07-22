@@ -110,9 +110,10 @@ function check(){
 	if (correct == 12) {
 		score = 12;
 	}
+
 	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("message").innerHTML = messages[score];
-	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";
+	document.getElementById("number_correct").innerHTML = "You got:";
 	document.getElementById("picture").src = pictures[score];
 	}
 	

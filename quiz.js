@@ -18,7 +18,7 @@
     options: ["Low Sea Crystal", "Clear Jade", "Tiffany", "Diamond Supply Co."],
     answer: 2
   }, {
-    question: "What sneaker is this? Fenty x Puma...Creepers",
+    question: "What sneaker is this? Fenty x Puma",
     options: ["Velvet Round Toe", "Velvet Red", "Camo", "Velvet Maroon"],
     answer: 1
   },{

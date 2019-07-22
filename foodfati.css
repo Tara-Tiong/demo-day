@@ -24,9 +24,10 @@ h3{
      font-size: 18px;
  
  }
- h5{
-    margin-left: 12px;
-    font-size: 9px;
+ h6{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#f2b6e7;
 }
 #box{
     height: 350px;

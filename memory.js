@@ -37,7 +37,7 @@ var all_questions = [{
   }, {
     question_string: 'Can you recall the third question you were asked?',
     choices: {
-      correct: "What’s the age difference between the oldest and youngest members of the group?",
+      correct: "What’s the age difference between the group members?",
       wrong: ["What’s the answer to (6^2+1)-(4*2)=___?", "What schools do the group members go to?","How does Mitchell spell his name?"]
     }
   },{

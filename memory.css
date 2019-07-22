@@ -7,6 +7,9 @@
   box-sizing: border-box;
 }
 
+h1 {
+  font-family: ArialRoundedMTBold;
+}
 html, body {
   /*background: #2E706C;*/
   background-image: url("http://tripsbykids.tk/wp-content/uploads/2018/09/quiz-background-rocket.png");
@@ -50,7 +53,7 @@ body {
   float: right;
   margin: 8px 0px 0px 8px;
   padding: 4px 8px;
-  background: rgb(194, 193, 235);
+  background: rgb(190, 229, 255);
   color: rgb(27, 47, 136);
   font-size: 14px;
   cursor: pointer;
@@ -58,14 +61,14 @@ body {
 }
 
 #quiz button:hover {
-  background: #f5b7b7;
+  background: #ffc6fa;
   color: rgb(62, 79, 173);
 }
 
 #quiz button:disabled {
   opacity: 0.5;
-  background: rgb(204, 192, 236);
-  color: rgb(28, 46, 107);
+  background: #b2d6ff;
+  color: rgb(97, 119, 190);
   cursor: default;
 }
 
@@ -89,7 +92,7 @@ body {
   display: inline-block;
   margin: 4px;
   padding: 8px;
-  background: rgb(207, 203, 245);
+  background: #b2ffec;
   color: rgb(36, 54, 134);
   width: calc(50% - 8px);
   min-width: 100px;
@@ -97,11 +100,11 @@ body {
 }
 
 #question label:hover {
-  background: rgb(240, 209, 238);
+  background: rgb(251, 212, 255);
 }
 
 #question input[type=radio]:checked + label {
-  background: rgb(231, 202, 238);
+  background: rgb(242, 184, 255);
   color: rgb(67, 108, 196);
 }
 

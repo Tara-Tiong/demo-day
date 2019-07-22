@@ -1,0 +1,122 @@
+.style {
+    display: inline-block;
+}
+body{
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; 
+    padding-left: 10%;
+    color: pink;
+}
+h2{
+   
+    font-size: 30px;
+    text-align:left;
+    top: 30px;
+    color: grey;
+    font-style: Arial;
+    text-shadow: 0px 3px 13px rgba(0,0,0,.4);
+}
+h5{
+    margin-left: 12px;
+    font-size: 9px;
+}
+h3{
+    margin-left: 10px;
+     font-size: 18px;
+ 
+ }
+ h6{
+    margin-left: 10px;
+    font-size: 15px;
+    color:#f2b6e7;
+}
+#box{
+    height: 350px;
+    width: 700px;
+    background-color: #696b6e;
+    border-radius:10%;
+    padding-left:4cm;
+    padding-bottom:2cm;
+}
+#text{
+    font-size: 70px;
+    font-style: oblique;
+    position: relative;
+    top: 70px;
+    color:#dfe2e8;
+
+}
+#french{
+    font-style:oblique;
+    font-size:28px;
+    top: -39px;
+    right:1px;
+    color:#aeb2b8
+}
+
+#van{
+    font-style:oblique;
+    font-size:15px;
+    top: -77px;
+    right:560px;
+    color:#d7d9db
+}
+#message{
+    font-size: 30px;
+    text-align:left;
+    top: 30px;
+    color: grey;
+    font-style: Arial;
+    text-shadow: 0px 3px 13px rgba(0,0,0,.4);
+}
+#textt{
+    margin-left: 10px;
+    font-size: 15px;
+    font-style: oblique;
+    position: relative;
+    top: -16px;
+    color:#ffffff;
+}
+#pid{
+    margin-left: 10px;
+    font-size: 30px;
+    position: relative;
+    top: 30px;
+    color: grey;
+    font-style: Arial;
+    text-shadow: 0px 3px 13px rgba(0,0,0,.4);
+}
+#piid{
+    margin-left: 410px;
+    font-size: 15px;
+    position: relative;
+    top: -220px;
+    color: white;
+    font-style: Arial; 
+}
+.somethingg{height:380px;
+    width:740px;
+    Position:relative;
+    Left: 100 px;
+    Right: 100 px;
+    background-color: #aeb2b8;
+top:-30px;
+font-size: 15px;
+font-style: oblique;
+position: relative;
+top: 5px;
+color:#dfe2e8;
+}
+#teext{
+    color:black;
+    font-size: 30px;
+    Right:20 px;
+    left:4 px;
+    font-style: oblique;
+    position: relative;
+    top: 25px;
+}
+#milk, #shake {
+    border-radius: 10%;
+    width: 400px;
+    height: 350px;
+}

@@ -35,16 +35,16 @@ function check(){
 	if (question6 == "tee") {
 		correct++;
 }
-	if (question7 == "nets") {
+	if (question7 == "funnel") {
 		correct++;
 }
 	if (question8 == "cro") {
 		correct++;
 }
-	if (question9 == "p") {
+	if (question9 == "o") {
 		correct++;
 }
-	if (question10 == "driz") {
+	if (question10 == "cin") {
 		correct++;
 }
 	if (question11 == "spee") {

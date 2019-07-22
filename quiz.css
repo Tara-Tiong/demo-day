@@ -63,8 +63,8 @@ input[type="radio"]{
 
 .small {
     height: 200px;
-    width: 250px;
+    width: 300px;
     position: relative;
     top:-520px;
-    left:550px;
+    left:700px;
   }

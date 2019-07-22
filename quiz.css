@@ -2,9 +2,9 @@ body
 {
     font-family: 'Josefin Sans', sans-serif;
 }
-h1 {
+/* h1 {
     text-align: center;
-}
+} */
 .button 
 {
     
@@ -59,3 +59,12 @@ ul li
 input[type="radio"]{
     cursor: pointer;
 }
+
+
+.small {
+    height: 200px;
+    width: 250px;
+    position: relative;
+    top:-520px;
+    left:550px;
+  }

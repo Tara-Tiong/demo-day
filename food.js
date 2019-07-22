@@ -35,16 +35,16 @@ function check(){
 	if (question6 == "tee") {
 		correct++;
 }
-	if (question7 == "nets") {
+	if (question7 == "funnel") {
 		correct++;
 }
 	if (question8 == "cro") {
 		correct++;
 }
-	if (question9 == "p") {
+	if (question9 == "o") {
 		correct++;
 }
-	if (question10 == "driz") {
+	if (question10 == "cin") {
 		correct++;
 }
 	if (question11 == "spee") {
@@ -62,8 +62,8 @@ function check(){
  "You got:Humble You acknowledge when you are wrong, and have high enough standards without having an excess of pride. But, you tend to have modest pride when you stick up for something you believe in.",
  "You Got:Adventurous You are at a point in your life where you are ready to explore what you haven’t seen yet.You tend to take risks,try out new methods,ideas experiences. You don’t believe you have exceeded your limit.",
  "You Got:Detail Oriented You are very observant to detail.If something that you’ve worked on is slightly off, you automatically change it.You pay attention to every flavor in the food you eat. ",
- "You got:Introvert You are very easy to please,you are super focused when it comes to things you want to get done,you pay attention and are a very good listener, Not at all times, but it feels relaxing to have time for yourself, and away from people.",
  "You Got:Perceiver You prefer to keep your options open.You like to act spontaneously.You tend to be flexible with making plans or dates, and people like that about you.You are very laid back and soft spoken.",
+ "You got:Introvert You are very easy to please,you are super focused when it comes to things you want to get done,you pay attention and are a very good listener, Not at all times, but it feels relaxing to have time for yourself, and away from people.",
  "You got:Giving When you give a person a gift/letter for an occasion, you put a lot of thought into it.You go all out for them, and even make settle additions or changes before you gift it. You get excited to see their reaction from when they see it. You appreciate it when people do it back because though you don’t care if they do, you just appreciate that you get something in return because you tend to give a lot and don’t get anything in return.",
 ];
 	var score;

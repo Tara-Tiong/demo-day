@@ -181,4 +181,3 @@ function change() {
         select.src= pics[index];
     }
 }
-document.getElementById("after_submit").style.visibility="invisible";

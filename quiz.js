@@ -159,7 +159,7 @@ let index = 0;
 
 var pics = [
   "https://www.kicksonfire.com/wp-content/uploads/2017/07/AIR-FORCE-1-1.jpg?x98166", 
-  "https://sneakernews.com/wp-content/uploads/2018/12/air-jordan-11-bred-2019.jpg?w=780",
+  "https://i.pinimg.com/originals/e9/8e/3d/e98e3d687553be329e1d9020efe05151.jpg",
   "https://sneakernews.com/wp-content/uploads/2019/06/nike-air-max-1-independence-day-cj4283-100-3.jpg",
   "https://www.withsneaker.com/wp-content/uploads/2019/01/Nike-SB-Dunk-Low-Tiffany.jpg",
   "https://sneakernews.com/wp-content/uploads/2016/11/rihanna-puma-creeper-velvet-release-date-04.jpg",
@@ -173,10 +173,12 @@ function change() {
     var select = document.querySelector("#first");
     if (index == pics.length - 1){
         index = 0;
-        select.src= pics[index];
+        select.src = '';
     }
+    
     else {
         index++;
         select.src= pics[index];
     }
 }
+document.getElementById("after_submit").style.visibility="invisible";

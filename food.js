@@ -58,7 +58,7 @@ function check(){
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
 	var messages = [
 	"You Got:Judgemental You tend to judge someone right away, though you don't purposefully try to.When you first meet someone, you unintentionally make assumptions about their character. No matter how nice they appear to be, you go off your initial instict and act accordingly.",
- ,"You Got:Perfectionist You tend to always have the desire to be useful and strive to improve.You have this  desire to input your ideas into a conversation It’s not always positive and you understand that.Sometimes you need to take a breather because you put stress on yourself that isn’t good for your mental health. ","You got: Humble You acknowledge when you are wrong, and have high enough standards without having an excess of pride. But, you tend to have modest pride when you stick up for something you believe in.",
+ "You Got:Perfectionist You tend to always have the desire to be useful and strive to improve.You have this  desire to input your ideas into a conversation It’s not always positive and you understand that.Sometimes you need to take a breather because you put stress on yourself that isn’t good for your mental health. ","You got: Humble You acknowledge when you are wrong, and have high enough standards without having an excess of pride. But, you tend to have modest pride when you stick up for something you believe in.",
  "You got:Humble You acknowledge when you are wrong, and have high enough standards without having an excess of pride. But, you tend to have modest pride when you stick up for something you believe in.",
  "You Got:Adventurous You are at a point in your life where you are ready to explore what you haven’t seen yet.You tend to take risks,try out new methods,ideas experiences. You don’t believe you have exceeded your limit.",
  "You Got:Detail Oriented You are very observant to detail.If something that you’ve worked on is slightly off, you automatically change it.You pay attention to every flavor in the food you eat. ",
@@ -69,18 +69,47 @@ function check(){
 	var score;
 
 	if (correct == 0) {
-		score = 2;
-	}
-
-	if (correct > 0 && correct < 3) {
-		score = 1;
-	}
-
-	if (correct == 3) {
 		score = 0;
 	}
 
+	if (correct ==1) {
+		score = 1;
+	}
 
+	if (correct == 2) {
+		score = 2;
+	}
+
+	if (correct == 3) {
+		score = 3;
+	}
+	if (correct == 4) {
+		score = 4;
+	}
+	if (correct == 5) {
+		score = 5;
+	}
+	if (correct == 6) {
+		score = 6;
+	}
+	if (correct == 7) {
+		score = 7;
+	}
+	if (correct == 8) {
+		score = 8;
+	}
+	if (correct == 9) {
+		score = 9;
+	}
+	if (correct == 10) {
+		score = 10;
+	}
+	if (correct == 11) {
+		score = 11;
+	}
+	if (correct == 12) {
+		score = 12;
+	}
 	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("message").innerHTML = messages[score];
 	document.getElementById("number_correct").innerHTML = "You got " + correct + " correct.";

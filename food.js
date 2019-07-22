@@ -23,7 +23,7 @@ function check(){
 	if (question2 == "mint") {
 		correct++;
 }	
-	if (question3 == "pecans") {
+	if (question3 == "pecan") {
 		correct++;
 }
 	if (question4 == "pumpkin") {

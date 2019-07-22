@@ -31,7 +31,7 @@
     answer: 2
   },{
     question: "What sneaker is this? Kyrie 5...",
-    options: ["Black History Month", "Concepts Ikhet Multi-Color", "Mamba Mentality", "Spongebob and Patrick"],
+    options: ["Black History Month", "Concepts Ikhet", "Mamba Mentality", "Spongebob and Patrick"],
     answer: 0
   },{
     question: "What heel is this? Christian Louboutin...",
@@ -153,3 +153,22 @@
         return score;
   }
 })();
+
+
+let index = 0;
+
+var pics = [
+  "https://media.wired.com/photos/5a55457ef41e4c2cd9ee6cb5/master/w_2400,c_limit/Doggo-TopArt-104685145.jpg", 
+  "https://i.kym-cdn.com/photos/images/original/001/200/810/9bc.jpg"];
+
+function change() {
+    var select = document.querySelector("#first");
+    if (index == 1){
+        index = 0;
+        select.src= pics[index];
+    }
+    else {
+        index++;
+        select.src= pics[index];
+    }
+}

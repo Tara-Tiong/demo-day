@@ -8,7 +8,7 @@
 }
 
 h1 {
-  font-family: ArialRoundedMTBold;
+  font-family: TrebuchetMS;
 }
 html, body {
   /*background: #2E706C;*/
@@ -185,4 +185,11 @@ a:hover {
   width: 40%;
   height: auto; }
 
- 
+ a {
+   color: #ffffff;
+   font-size: 30px
+ }
+
+ a:hover {
+   color:#9fffd2;
+ }

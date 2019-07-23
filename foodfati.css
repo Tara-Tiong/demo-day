@@ -1,4 +1,5 @@
 .style {
+    padding-top: 0px;
     display: inline-block;
 }
 body{
@@ -46,6 +47,7 @@ h3{
 
 }
 #french{
+    padding-top:0px;
     font-style:oblique;
     font-size:28px;
     top: -39px;

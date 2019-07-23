@@ -1,4 +1,5 @@
 .style {
+    padding-top: 0px;
     display: inline-block;
 }
 body{
@@ -46,6 +47,7 @@ h3{
 
 }
 #french{
+    padding-top:0px;
     font-style:oblique;
     font-size:28px;
     top: -39px;
@@ -73,7 +75,7 @@ h3{
     font-size: 15px;
     font-style: oblique;
     position: relative;
-    top: -16px;
+    top: -1px;
     color:#ffffff;
 }
 #pid{
@@ -89,7 +91,7 @@ h3{
     margin-left: 410px;
     font-size: 15px;
     position: relative;
-    top: -220px;
+    top: -368px;
     color: white;
     font-style: Arial; 
 }
@@ -119,4 +121,11 @@ color:#dfe2e8;
     border-radius: 10%;
     width: 400px;
     height: 350px;
+}
+#replay{
+    margin-left: 980px;
+ width: 40px;
+ height:40px;
+    position: relative;
+    top: -415px;
 }

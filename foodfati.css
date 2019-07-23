@@ -73,7 +73,7 @@ h3{
     font-size: 15px;
     font-style: oblique;
     position: relative;
-    top: -16px;
+    top: -1px;
     color:#ffffff;
 }
 #pid{
@@ -89,7 +89,7 @@ h3{
     margin-left: 410px;
     font-size: 15px;
     position: relative;
-    top: -220px;
+    top: -368px;
     color: white;
     font-style: Arial; 
 }
@@ -121,9 +121,9 @@ color:#dfe2e8;
     height: 350px;
 }
 #replay{
-    margin-left: 410px;
- width: 15px;
- height:15px;
+    margin-left: 800px;
+ width: 40px;
+ height:40px;
     position: relative;
-    top: -220px;
+    top: -415px;
 }

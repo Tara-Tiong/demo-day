@@ -185,4 +185,11 @@ a:hover {
   width: 40%;
   height: auto; }
 
- 
+ a {
+   color: #ffffff;
+   font-size: 30px
+ }
+
+ a:hover {
+   color:#9fffd2;
+ }

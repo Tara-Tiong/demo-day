@@ -1,8 +1,11 @@
+head, h2 {
+    text-align: center;
+}
 body{
     color: rgb(122, 38, 38);
     font-size: 30px;
-    text-align: end;
-    position: absolute;
+    text-align: center;
+    position: static;
     bottom: 50px;
     right: 50px;
     font-family: ArialRoundedMTBold; 
@@ -14,8 +17,9 @@ body{
 }
 #test{
     color: rgb(0, 0, 0);
-    font-size: 31.5px;
+    font-size: 32px;
     font-family: Andale Mono;
+    position: static;
 }
 h4{
     color: #ffffff;

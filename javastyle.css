@@ -188,7 +188,7 @@ body{
     transition-duration: 240ms;
     transition-timing-function: cubic-bezier(.1, .2, .3, 1.4);
     background-color: #fff5f9;
-    height: 825px;
+    height: 860px;
     width:720px;
 }
 

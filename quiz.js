@@ -169,15 +169,15 @@ var pics = [
   "http://images.us.christianlouboutin.com/media/catalog/product/cache/1/thumbnail/1200x/602f0fa2c1f0d1ba5e241f914e856ff9/3/0/8/0/christianlouboutin-pigalle-3080698_PK20_2_1200x1200_1511939397.jpg",
   "http://2app.kicksonfire.com/kofapp/upload/events_master_images/ipad_12131226fff10a8e9d8ef48e777725a559447b5069052.jpg",];
 
-function change() {
+document.querySelector('#next').onclick = function () {
     var select = document.querySelector("#first");
     if (index == pics.length - 1){
         index = 0;
-        select.src = '';
-    }
-    
-    else {
+        select.style.display = 'none';
+        console.log('1')
+    } else {
         index++;
         select.src= pics[index];
+        console.log('2')
     }
 }

@@ -36,7 +36,7 @@ ul, h3, #test{
     transform: translateY(4px);
   }
   input[type=button]:hover {
-    background-color: #b95217;
+    background-color: #ffb6b6;
     color: white;
   }
   

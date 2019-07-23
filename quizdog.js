@@ -71,12 +71,59 @@ function selectAnswer(e) {
     nextButton.classList.remove('hide')
   } else {
     console.log('made it')
-    var output = document.getElementById('Points')
+    var output = document.getElementById('points')
     var finalScore = sessionStorage.getItem('Points')
     output.innerHTML = finalScore
-    startButton.innerText = 'Restart'
-    startButton.classList.remove('hide')
-  }
+    
+
+
+    // HERERERERE add onclick
+    document.querySelector('#button').onclick = function() {
+      var key = document.getElementById('inputKey').value
+      localStorage.setItem(key, finalScore)
+      var myList = [] //list of points
+      var nameList = [] //all players names
+      var origin = [] //copy of local storage
+      for(let i=0; i < localStorage.length; i++) {
+          var key = localStorage.key(i);
+          var value = localStorage.getItem(key);
+          var point = value
+          value = Number(value)
+          myList[myList.length] = value;
+          nameList[nameList.length] = key;
+          origin[origin.length] = key + ' ' + point;
+      
+      }
+      
+      myList.sort((a, b) => b - a)
+      finalList = [] //sorted leaderboard
+      for (let i = 0; i < localStorage.length; i++) {
+          for (x in myList) {
+              var check = nameList[x] + ' ' + myList[i]
+              for (let z = 0; z < origin.length; z++) {
+                  let newOrigin = origin[z]
+                  if (check == newOrigin) {
+                      finalList[finalList.length] = check
+                      // console.log('match')
+                  }
+              }
+      
+          }
+      
+      }
+      for(let i= 0;i<localStorage.length;i++) {
+        var item= finalList[i]
+        var li = document.createElement("li")
+        var text = document.createElement("li")
+        var text= document.createTextNode(item)
+        li.appendChild(text)
+        document.getElementById("myul").appendChild(li)
+        startButton.innerText = 'Restart'
+      }
+      // startButton.classList.remove('hide')
+    }
+    }
+    
 }
 
 function setStatusClass(element, correct) {

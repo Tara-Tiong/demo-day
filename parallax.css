@@ -1,3 +1,6 @@
+.wrapper{
+  position: relative;
+}
 #parallax {
   position: absolute;
   top: 0;

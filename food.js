@@ -72,52 +72,53 @@ function check(){
 ];
 	var score;
 
-	if (correct == 0) {
-		score = 0;
-	}
+	// if (correct == 0) {
+	// 	score = 0;
+	// }
 
-	if (correct ==1) {
-		score = 1;
-	}
+	// if (correct ==1) {
+	// 	score = 1;
+	// }
 
-	if (correct == 2) {
-		score = 2;
-	}
+	// if (correct == 2) {
+	// 	score = 2;
+	// }
 
-	if (correct == 3) {
-		score = 3;
-	}
-	if (correct == 4) {
-		score = 4;
-	}
-	if (correct == 5) {
-		score = 5;
-	}
-	if (correct == 6) {
-		score = 6;
-	}
-	if (correct == 7) {
-		score = 7;
-	}
-	if (correct == 8) {
-		score = 8;
-	}
-	if (correct == 9) {
-		score = 9;
-	}
-	if (correct == 10) {
-		score = 10;
-	}
-	if (correct == 11) {
-		score = 11;
-	}
-	if (correct == 12) {
-		score = 12;
-	}
+	// if (correct == 3) {
+	// 	score = 3;
+	// }
+	// if (correct == 4) {
+	// 	score = 4;
+	// }
+	// if (correct == 5) {
+	// 	score = 5;
+	// }
+	// if (correct == 6) {
+	// 	score = 6;
+	// }
+	// if (correct == 7) {
+	// 	score = 7;
+	// }
+	// if (correct == 8) {
+	// 	score = 8;
+	// }
+	// if (correct == 9) {
+	// 	score = 9;
+	// }
+	// if (correct == 10) {
+	// 	score = 10;
+	// }
+	// if (correct == 11) {
+	// 	score = 11;
+	// }
+	// if (correct == 12) {
+	// 	score = 12;
+	// }
+	// score = correct;
 
 	document.getElementById("after_submit").style.visibility = "visible";
-	document.getElementById("message").innerHTML = messages[score];
+	document.getElementById("message").innerHTML = messages[correct];
 	document.getElementById("number_correct").innerHTML = "You Got:";
-	document.getElementById("picture").src = pictures[score];
+	document.getElementById("picture").src = pictures[correct];
 	}
 	

@@ -182,4 +182,11 @@ a:hover {
   width: 40%;
   height: auto; }
 
+  a {
+    color: #FAFAFA;
+    font-size: 15px
+  }
  
+  a:hover {
+    color:#d6ebff;
+  }

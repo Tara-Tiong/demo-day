@@ -1,11 +1,29 @@
+title{
+    font-family: Verdana;
+}
+body{
+    background-color: black;
+}
+
+#quiz{
+    height: 100px;
+    width: 200px;
+}
 h1{
     text-decoration: underline;
     font-family: Courier New;
+    color: #fff;
 }
 h2{
     text-decoration: underline;
+    color: #fff;
 }
 h3{
+    font-size: 22px;
+    color: #fff;
+}
+h4{
+    text-align: left;
     font-size: 22px;
 }
 .block {

@@ -223,6 +223,9 @@ img.gif{
         color: #2e0c55;
  }
  .row {
+    padding-left: 0%;
+    margin-left:1cm;
+    margin-right:1cm;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -231,6 +234,8 @@ img.gif{
     border-style: hidden 200px;
   }
   .songs{
+    margin-left:1cm;
+    margin-right:1cm;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -304,4 +309,35 @@ a {
 #test{
     height: 300px;
     width:300px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    height: 200%;
+}
+#main{
+    margin-top:45%;
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+}
+#logo{
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    margin-top: -50px;
+    text-align: center;
+}
+#layer1,#layer2,#layer3,#layer4,#layer5,#layer6,#layer7,#layer8,#layer9,#layer10{
+    height: 350px;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%)translateY(-72%);
+    top:250px;
 }

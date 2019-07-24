@@ -9,6 +9,7 @@
 
 body{
     background-color: #fff5f9;
+    opacity: 2;
 }
 
 .wrapper{
@@ -114,6 +115,7 @@ body{
 .main-nav-list::before,
 .main-nav-list::after{
     background-color: #ffbae8; 
+    opacity: 2;
     content:"";
     position: absolute;
     top: 0;
@@ -360,3 +362,232 @@ body{
     font-family: 'Open Sans', sans-serif;
     font-family: 'Dancing Script', cursive;
 }
+
+
+#writing{
+    font-size: 22px;
+    text-align: center;
+}
+
+
+
+#quiz{
+    height: 75px;
+    width: 200px;
+    font-size: 22px;
+}
+
+.block {
+    height: 425px;
+    width: 425px;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+   }
+   
+   .per{
+    background-color: #ccccff;
+   }
+   .riw{
+    background-color: #9999ff;
+   }
+   .inkle{
+    background-color: #6666ff;
+   }
+   .p{
+    background-color: #e6ccff;
+   }
+   .urp{
+    background-color: #ce99ff;
+   }
+   .le{
+    background-color: #c180ff;
+   }
+   .gr{
+    background-color: #ccffe6;
+   }
+   .ee{
+    background-color: #99ffce;
+   }
+   .n{
+    background-color: #80ffc1;
+   }
+
+
+
+
+
+   .pink{
+    background-color: #80ff80;
+   }
+   .and{
+    background-color: #99ff99;
+   }
+   .red{
+    background-color: #b3ffb3;
+   }
+   .ye{
+    background-color: #ffff33;
+   }
+   .ll{
+    background-color:#ffff66;
+   }
+   .ow{
+    background-color: #ffff99;
+   }
+   .or{
+    background-color: #ff8c1a;
+   }
+   .an{
+    background-color: #ffa64d;
+   }
+   .ge {
+    background-color: #ffbf80;
+   }
+
+
+
+
+
+   .heyy{
+    background-color: #ccffff;
+   }
+   .hand{
+    background-color: #99ffff;
+   }
+   .hi{
+    background-color: #66ffff;
+   }
+   .white{
+    background-color: #cccccc;
+   }
+   .gray{
+    background-color:#a6a6a6;
+   }
+   .dark{
+    background-color: #737373;
+   }
+   .ru{
+    background-color:#ff80bf;
+   }
+   .being{
+    background-color: #ff66b3;
+   }
+   .serious {
+    background-color:#ff3399;
+   }
+
+   .ruq{
+       background-color: #b3ecff;
+   }
+   .aiy{
+    background-color: #80dfff;
+    }
+    .ah{
+    background-color: #4dd2ff;
+    }
+
+    
+    .muh{
+        background-color:  #b3e0ff;
+       }
+    .amm {
+        background-color:#80ccff;
+       }
+    
+    .ad{
+           background-color:#4db8ff;
+       }
+    .fa{
+        background-color: #339933;
+        }
+    .ti{
+        background-color: #40bf40;
+        }
+        .mah{
+            background-color: #66cc66;
+           }
+           .y {
+            background-color:#333333;
+           }
+        
+           .us{
+               background-color: #4d4d4d;
+           }
+           .uf{
+            background-color: #666666;
+            }
+            .il{
+            background-color:#ffcccc;
+            }   .ya{
+                background-color: #ffb3b3;
+               }
+               .as {
+                background-color:#ff8080;
+               }
+            
+               .asi{
+                   background-color: #b30000;
+               }
+               .yah{
+                background-color: #cc0000;
+                }
+                .hh{
+                background-color: #ff1a1a;
+                }
+
+
+
+                .rol {
+                    background-color:#0040ff;
+                   }
+                
+                .ants{
+                       background-color:#0033cc;
+                   }
+                .do{
+                    background-color: #002699;
+                    }
+                .fff{
+                    background-color: #3385ff;
+                    }
+                    .io{
+                        background-color: #1a75ff;
+                       }
+                       .na {
+                        background-color:#005ce6;
+                       }
+                    
+                       .ttt{
+                           background-color: #997300;
+                       }
+                       .arr{
+                        background-color: #b38600;
+                        }
+                        .aaa{
+                        background-color: #cc9900;
+                        }   .der{
+                            background-color: #ffcc00;
+                           }
+                           .iii {
+                            background-color:#ffd633;
+                           }
+                        
+                           .ckk{
+                               background-color: #ffe066;
+                           }
+                           .ddd{
+                            background-color: #b3ff99;
+                            }
+                            .anw{
+                            background-color: #8cff66;
+                            }
+                            .iel{
+                                background-color: #66ff33;
+                                }
+#sneakers{
+    display: inline-block;
+}
+
+

@@ -149,10 +149,14 @@
             correct++;
           }
         }
+        var myPoints=sessionStorage.getItem("score")
+
         score.append('Congratulations, you scored ' + correct + ' out of ' +allQuestions.length);
         return score;
+        
   }
 })();
+
 
 
 let index = 0;
@@ -180,4 +184,11 @@ document.querySelector('#next').onclick = function () {
         select.src= pics[index];
         console.log('2')
     }
+}
+
+function leaderScore() {
+  sessionStorage.setItem()
+
+
+
 }

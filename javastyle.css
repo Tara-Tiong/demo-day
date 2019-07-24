@@ -188,7 +188,7 @@ body{
     transition-duration: 240ms;
     transition-timing-function: cubic-bezier(.1, .2, .3, 1.4);
     background-color: #fff5f9;
-    height: 860px;
+    height: 825px;
     width:720px;
 }
 
@@ -304,4 +304,8 @@ a {
 #test{
     height: 300px;
     width:300px;
+}
+#writing{
+    font-family: courier new;
+    font-size: 22px;
 }

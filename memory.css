@@ -186,10 +186,10 @@ a:hover {
   height: auto; }
 
  a {
-   color: #ffffff;
-   font-size: 30px
+   color: #FAFAFA;
+   font-size: 15px
  }
 
  a:hover {
-   color:#9fffd2;
+   color:#d6d9ff;
  }

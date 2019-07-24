@@ -131,13 +131,13 @@ var all_questions = [{
       console.log(percentage);
       var message;
       if (percentage === 1) {
-        message = 'Great job!'
+        message = 'The answer to Question 10 was "it."'
       } else if (percentage >= .75) {
-        message = 'You did alright.'
+        message = 'The answer to Question 10 was "it."'
       } else if (percentage >= .5) {
-        message = 'Better luck next time.'
+        message = 'The answer to Question 10 was "it."'
       } else {
-        message = 'Maybe you should try a little harder.'
+        message = 'The answer to Question 10 was "it."'
       }
       $('#quiz-results-message').text(message);
       $('#quiz-results-score').html('You got <b>' + score + '/' + self.questions.length + '</b> questions correct.');

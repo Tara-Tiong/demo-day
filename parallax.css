@@ -1,25 +1,13 @@
-.wrapper{
-  position: relative;
+body{
+    margin:0;
+    padding: 0;
 }
-#parallax {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%; 
-  background: #fedcc8;
-  overflow:hidden;
+.plastic{
+    width: 100%;
+    height:100%;
+    overflow: hidden;
+    background-attachment: fixed
 }
-
-.parallax__layer {
-  height: 100%;
-  position: absolute;
-  width: 3000px;
-  left: 50%;
-  margin-left: -1500px; 
-}
-
-.parallax__layer img {
-  position: absolute;
-  bottom: 0; 
+.mixBlnd{
+	background-blend-mode: screen;
 }

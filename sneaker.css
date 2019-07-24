@@ -6,8 +6,9 @@ body{
 }
 
 #quiz{
-    height: 100px;
+    height: 75px;
     width: 200px;
+    font-size: 22px;
 }
 h1{
     text-decoration: underline;
@@ -17,10 +18,12 @@ h1{
 h2{
     text-decoration: underline;
     color: #fff;
+    font-family: Courier New;
 }
 h3{
     font-size: 22px;
     color: #fff;
+    font-family: Courier New;
 }
 h4{
     text-align: left;

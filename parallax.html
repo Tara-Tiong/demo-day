@@ -1,51 +1,59 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <link rel= "stylesheest" href ="parallax.css">
-    <script src="rellax.js"></script>
-</head>
-<body>
-        <div class="wrapper">
-        <div class="parallax" id="parallax"> 
-                <img src="layer1.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer2.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-               <img src="layer3.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer4.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer5.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer6.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer7.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer8.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer9.png" width="100%">
-        </div>
-
-        <div class="parallax__layer">
-                <img src="layer10.png" width="100%">
-        </div>
-        </div>
-</div>
-</body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel='stylesheet' href='parallax.css'>
+    <script src="parallax.js" type="text/javascript"></script>
     
+</head>
+
+<body>
+    <div class='plastic'>
+        <ul id="scene">
+            <li class="layer" data-depth=0>
+                    <img src="layer1.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer2.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer3.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer4.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer5.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer6.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer7.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer8.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer9.png">
+                </li>
+            <li class="layer" data-depth=0>
+                    <img src="layer10.png">
+                </li>
+
+        </ul>
+
+
+    </div>
+    
+    <script type="text/javascript">
+    var scene = document.getElementById('scene');
+    var parallax = new Parallax(scene);
+    </script>
+</body>
+
 </html>

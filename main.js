@@ -12,12 +12,8 @@ var toggledMenu = menuToggle.addEventListener("click", function(){
 )
 
 
-
-
-
-
 // this is for the typewriter
-const Typewriter = function(txtElement,words,wait = 2000){
+const Typewriter = function(txtElement,words,wait = 1000){
      this.txtElement =txtElement;
      this.words = words;
      this.txt = '';
@@ -51,7 +47,7 @@ Typewriter.prototype.type= function(){
     this.txtElement.innerHTML = `<span class="txt"> ${this.txt} </span>`; 
 
     // initial type speed
-    let typeSpeed = 300;
+    let typeSpeed = 100;
     
     if(this.isDeleting){
         typeSpeed /=3;
@@ -84,7 +80,9 @@ function init(){
     const wait = txtElement.getAttribute('data-wait');
     // init typewriter
     new Typewriter(txtElement,words,wait);
-}
+};
+
+
 
 
 

@@ -68,9 +68,9 @@ h3{
     font-size: 30px;
     text-align:left;
     top: 30px;
-    color: grey;
+    color: #ffffff;
     font-style: Arial;
-    text-shadow: 0px 3px 13px rgba(0,0,0,.4);
+   
 }
 #textt{
     margin-left: 10px;
@@ -133,5 +133,5 @@ color:#dfe2e8;
     top: -411px;
 }
 #var messages{
-    color:red;
+    color
 }

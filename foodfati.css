@@ -132,4 +132,6 @@ color:#dfe2e8;
     position: relative;
     top: -411px;
 }
-
+#var messages{
+    color:red;
+}

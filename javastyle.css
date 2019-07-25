@@ -307,6 +307,12 @@ h4{
 
 a {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; 
+        font-size: 1.1rem;
+        letter-spacing: 1.7px;
+        line-height: 1.35;
+             color: #474145;
+             transition-delay: 150ms;
+             transition-duration: 850ms;
     }
 #test{
     height: 300px;
@@ -346,13 +352,13 @@ body{
 .tupperware{
     width: 100%;
     margin: 0 auto;
-    background: #f9f9f9;
+    background: #fff5f9;
     font-size: 24px;
     padding: 10px;
 }
+
 .parallax {
-    width:100%;
-    min-height: 500px;
+    min-height: 400px;
     background: transparent;
 }
  #cursive{
@@ -588,6 +594,24 @@ body{
                                 }
 #sneakers{
     display: inline-block;
+}
+
+.plastic
+{
+
+	width: 200vh;
+	height: 100vh;
+	overflow: hidden;
+	background-attachment: fixed;
+}
+.mixBlnd
+{
+	background-blend-mode: screen;
+}
+.layer{
+    padding-right: 10%;
+    width:100%;
+    height: 75%;
 }
 
 

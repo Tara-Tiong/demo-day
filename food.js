@@ -57,7 +57,7 @@ function check(){
 	
 	var pictures = ["img/win.gif", "img/meh.jpeg", "img/lose.gif"];
 	var messages = [
-		"Introvert: You are very easy to please,you are super focused when it comes to things you want to get done,you pay attention and are a very good listener, Not at all times, but it feels relaxing to have time for yourself, and away from people.",
+		"Introvert: You are very easy to please,you are super<br><br>focused when it comes to things you want to get<br><br> done,you pay attention and are a very good listener,<br><br> Not at all times, but it feels relaxing to have time for<br><br> yourself, and away from people.",
  "Perfectionist: You tend to always have the desire to be useful and strive to improve.You have this  desire to input your ideas into a conversation It’s not always positive and you understand that.Sometimes you need to take a breather because you put stress on yourself that isn’t good for your mental health. ","You got: Humble You acknowledge when you are wrong, and have high enough standards without having an excess of pride. But, you tend to have modest pride when you stick up for something you believe in.",
  "Humble: You acknowledge when you are wrong, and have high enough standards without having an excess of pride. But, you tend to have modest pride when you stick up for something you believe in.",
  "Adventurous: You are at a point in your life where you are ready to explore what you haven’t seen yet.You tend to take risks,try out new methods,ideas experiences. You don’t believe you have exceeded your limit.",
@@ -118,7 +118,6 @@ function check(){
 
 	document.getElementById("after_submit").style.visibility = "visible";
 	document.getElementById("message").innerHTML = messages[correct];
-	document.getElementById("number_correct").innerHTML = "You Got:";
-	document.getElementById("picture").src = pictures[correct];
+
 	}
 	

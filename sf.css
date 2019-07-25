@@ -183,10 +183,11 @@ a:hover {
   height: auto; }
 
   a {
-    color: #FAFAFA;
+    color:black;
     font-size: 15px
   }
  
   a:hover {
-    color:#d6ebff;
+    color:#d6d9ff;
   }
+ 

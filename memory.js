@@ -17,7 +17,7 @@ var all_questions = [{
       wrong: ["Diagonal", "Vertical","Inside Out Backwards"]
     }
   }, {
-    question_string: 'Who said, "What color stripes was on the eigth page?',
+    question_string: 'What color stripes was on the eighth page?',
     choices: {
       correct: "White and Pink",
       wrong: ["White and Black", "Black and White", "Black and Pink"]

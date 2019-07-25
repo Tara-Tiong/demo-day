@@ -103,6 +103,7 @@
   function chooseOption() 
     {
         selectOptions[quesCounter] = +$('input[name="answer"]:checked').val();
+        
     }
    
   function nextQuestion() 

@@ -3,12 +3,6 @@
   <head>
         <h1 align="center"><img class = "gif"src = "https://media3.giphy.com/media/Rff2sTs99nOps5fdtT/giphy.gif?cid=8fc3c8975d28ba3f4f414a5049eadf9e&rid=giphy.gif"/></h1>
         <h6 align="center"></h6>
-        </head>
-    
-    
-<!DOCTYPE html>
-<html lang="en">
-<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -43,7 +37,6 @@
             <main class="main-contents">
                 <p>
                 is a website that is based in San Francisco made by four young women. <br>
-                
                 <!-- make a javascript arrow with svg   ( ' click on the menu bar for different resources')-->
                 The object of this website is to find the quizzes within their informational pages and play them.
                 </p>
@@ -54,32 +47,42 @@
             </h1>
             <h4>This is Quizdom.</h4>
         </div>
-
+        
+        </div>
             </main>
-        </div>
-        
-
-        <div id="main">
-            <div id="layer1"><img src="layer1.png" width="100%"/></div>
-            <div id="layer2"><img src="layer2.png" width="100%"/></div>
-            <div id="layer3"><img src="layer3.png" width="100%"/></div>
-            <div id="layer4"><img src="layer4.png" width="100%"/></div>
-            <div id="layer5"><img src="layer5.png" width="100%"/></div>
-            <div id="layer6"><img src="layer6.png" width="100%"/></div>
-            <div id="layer7"><img src="layer7.png" width="100%"/></div>
-            <div id="layer8"><img src="layer8.png" width="100%"/></div>
-            <div id="layer9"><img src="layer9.png" width="100%"/></div>
-            <div id="layer10"><img src="layer10.png" width="100%"/></div>
-
-        </div>
-        
+        <div id='image-container'>
+            <div class="plastic">
+                    <ul id="scene">
+                        <li class="layer" data-depth="0.25"><img src="layer1.png"></li>
+                        <li class="layer" data-depth="0.50"><img src="layer2.png"></li>
+                        <li class="layer" data-depth="0.75"><img src="layer3.png"></li>
+                        <li class="layer" data-depth="1"><img src="layer4.png"></li>
+                        <li class="layer" data-depth="1.25"><img src="layer5.png"></li>
+                        <li class="layer" data-depth="1.75"><img src="layer6.png"></li>
+                        <li class="layer" data-depth="2"><img src="layer7.png"></li>
+                        <li class="layer" data-depth="2.1"><img src="layer8.png"></li>
+                        <li class="layer" data-depth="2"><img src="layer9.png"></li>
+                        <li class="layer" data-depth="2.25"><img src="layer10.png"></li>
+            
+            
+                    </ul>
+                </div>
+            </div>
+            
+        </body>
+        <script src="parallax.js"></script>
        
     
-        
-        
-</body>
-<script src='main.js'></script>
-        <script>
-            alert('Welcome to Quizdom!!!');
-                </script>
+        <script src='main.js'></script>
+
+
+<script>
+     alert('Welcome to Quizdom!!!');
+        var scene = document.getElementById('scene');
+        var parallax = new Parallax(scene);
+    </script>
+       
+    </body>
 </html>
+        
+

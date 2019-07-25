@@ -254,3 +254,63 @@ var all_questions = [{
     var quiz_container = $('#quiz');
     quiz.render(quiz_container);
   });
+
+
+//   function showQuestion(question)
+//  {   questionElement.innerText = question.question 
+//     question.answers.forEach(answer => {  
+//    const button = document.createElement('button')   
+//      button.innerText = answer.text 
+//      var value = sessionStorage.getItem("Points")
+//     document.querySelector("#points").innerHTMl = value
+//     button.classList.add('btn')  
+//     if (answer.correct) {
+//       if(sessionStorage.getItem("Points")==null){
+//         sessionStorage.setItem("Points",1)
+//         console.log('created')
+//       }else{
+//         var myPoints=sessionStorage.getItem("Points")
+//         myPoints=Number(myPoints)
+//         myPoints=myPoints+1
+//         sessionStorage.setItem("Points", myPoints)
+//         console.log('added')
+//       }
+//       button.dataset.correct = answer.correct
+//     }
+//     button.addEventListener('click', selectAnswer)
+//     answerButtonsElement.appendChild(button)
+//   })
+// } 
+// document.querySelector('#button').onclick = function() {
+//   var key = document.getElementById('inputKey').value
+//   localStorage.setItem(key, finalScore)
+//   var myList = [] //list of points
+//   var nameList = [] //all players names
+//   var origin = [] //copy of local storage
+//   for(let i=0; i < localStorage.length; i++) {
+//       var key = localStorage.key(i);
+//       var value = localStorage.getItem(key);
+//       var point = value
+//       value = Number(value)
+//       myList[myList.length] = value;
+//       nameList[nameList.length] = key;
+//       origin[origin.length] = key + ' ' + point;
+  
+//   }
+  
+//   myList.sort((a, b) => b - a)
+//   finalList = [] //sorted leaderboard
+//   for (let i = 0; i < localStorage.length; i++) {
+//       for (x in myList) {
+//           var check = nameList[x] + ' ' + myList[i]
+//           for (let z = 0; z < origin.length; z++) {
+//               let newOrigin = origin[z]
+//               if (check == newOrigin) {
+//                   finalList[finalList.length] = check
+//                   // console.log('match')
+//               }
+//           }
+  
+//       }
+  
+//   }

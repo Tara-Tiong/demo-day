@@ -375,7 +375,9 @@ body{
     text-align: center;
 }
 
-
+#instructions{
+    font-size: 17px;
+}
 
 #quiz{
     height: 75px;

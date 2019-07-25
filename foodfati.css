@@ -19,6 +19,7 @@ h2{
 h5{
     margin-left: 12px;
     font-size: 9px;
+    top:px;
 }
 h3{
     margin-left: 10px;
@@ -31,8 +32,8 @@ h3{
     color:#f2b6e7;
 }
 #box{
-    height: 350px;
-    width: 700px;
+    height: 200px;
+    width: 590px;
     background-color: #696b6e;
     border-radius:10%;
     padding-left:4cm;
@@ -42,6 +43,7 @@ h3{
     font-size: 70px;
     font-style: oblique;
     position: relative;
+    right:100px;
     top: 70px;
     color:#dfe2e8;
 
@@ -119,8 +121,9 @@ color:#dfe2e8;
 }
 #milk, #shake {
     border-radius: 10%;
-    width: 400px;
+    width: 350px;
     height: 350px;
+    margin-left:900;
 }
 #replay{
     margin-left: 800px;

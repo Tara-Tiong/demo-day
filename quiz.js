@@ -145,6 +145,7 @@
         {
           if (selectOptions[i] === allQuestions[i].answer) 
           {
+            
             correct++;
           }
         }

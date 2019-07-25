@@ -1,3 +1,7 @@
+window.onload = function() {
+	document.body.style.backgroundColor = '#fae1f5';
+}
+
 
 function check(){
 	

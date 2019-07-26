@@ -5,7 +5,7 @@ var all_questions = [{
     wrong: ["Red", "Coquelicot", "Marmalade"]
   }
 }, {
-  question_string: "Where was Bruce Lee born?",
+  question_string: "Where was Bruce Lee born?", 
   choices: {
     correct: "San Francisco",
     wrong: ["China", "Oakland", "Canada"]

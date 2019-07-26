@@ -224,10 +224,11 @@ img.gif{
    h1:hover{
         color: #2e0c55;
  }
+
  .row {
     padding-left: 0%;
-    margin-left:1cm;
-    margin-right:1cm;
+    margin-left:0cm;
+    margin-right:0cm;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -236,8 +237,8 @@ img.gif{
     border-style: hidden 200px;
   }
   .songs{
-    margin-left:1cm;
-    margin-right:1cm;
+    margin-left:2cm;
+    margin-right:2cm;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -600,22 +601,21 @@ body{
 
 .plastic{
     margin-left: -10px;
-	width: 200vh;
+	width: 100vw;
 	height: 100vh;
 	overflow: hidden;
     background-attachment: fixed;
     margin-bottom: 5cm;
     background-color: #fff5f9;
+    margin-left: -10%;
 }
 .mixBlnd
 {
 	background-blend-mode: screen;
 }
 .layer{
-    padding-right: 10%;
     width:100%;
-    height: 100%;
-    padding-bottom: 10%;
+    height: 75%;
 }
 /* #image-container {
     height: 100px;

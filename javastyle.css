@@ -598,11 +598,8 @@ body{
 #sneakers{
     display: inline-block;
 }
-.image-container{
-    border-block: 10px;
-    width:500px;
-    height:250px;
-}
+
+
 .plastic{
     margin-left: -10px;
 	width: 200vh;

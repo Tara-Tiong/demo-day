@@ -1,3 +1,4 @@
+
 .style {
     padding-top: 0px;
     display: inline-block;
@@ -135,3 +136,6 @@ color:#dfe2e8;
 /* #var messages{
     color
 } */
+h1{
+    color:grey;
+}

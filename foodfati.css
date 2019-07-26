@@ -1,8 +1,9 @@
+
 .style {
     padding-top: 0px;
     display: inline-block;
 }
-body{
+body {
     font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 24px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 26px; } h3 { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 15px; } p { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 21px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 30px; } pre { font-family: Futura, "Trebuchet MS", Arial, sans-serif; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18px; 
     padding-left: 10%;
     background-color: pink;
@@ -67,7 +68,7 @@ h3{
 #message{
     font-size: 30px;
     text-align:left;
-    top: 30px;
+    top: 500px;
     color: #ffffff;
     font-style: Arial;
    
@@ -132,6 +133,6 @@ color:#dfe2e8;
     position: relative;
     top: -411px;
 }
-#var messages{
+/* #var messages{
     color
-}
+} */

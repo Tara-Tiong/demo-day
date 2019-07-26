@@ -124,7 +124,10 @@ Quiz.prototype.render = function(container) {
       if (self.questions[i].user_choice_index === self.questions[i].correct_choice_index) {
         score++;
       }
+      var myPoints = correct
+        sessionStorage.setItem("Points", myPoints);
     }
+    
     
     // Display the score with the appropriate message
     var percentage = score / self.questions.length;

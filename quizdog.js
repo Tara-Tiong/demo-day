@@ -104,6 +104,7 @@ function selectAnswer(e) {
                   let newOrigin = origin[z]
                   if (check == newOrigin) {
                       finalList[finalList.length] = check
+                      origin.splice(z, 1)
                       // console.log('match')
                   }
               }

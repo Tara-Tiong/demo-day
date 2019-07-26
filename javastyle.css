@@ -601,21 +601,21 @@ body{
 
 .plastic{
     margin-left: -10px;
-	width: 100vw;
+	width: 100%;
 	height: 100vh;
 	overflow: hidden;
     background-attachment: fixed;
     margin-bottom: 0cm;
     background-color: #fff5f9;
-    margin-left: -10%;
+    margin-left: -15%;
 }
 .mixBlnd
 {
 	background-blend-mode: screen;
 }
 .layer{
-    width:100%;
-    height: 75%;
+    widows: 100px;
+    height: 100%;
 }
 /* #image-container {
     height: 100px;

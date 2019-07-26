@@ -1,5 +1,5 @@
 window.onload = function() {
-	document.body.style.backgroundColor = '#fae1f5';
+	document.body.style.backgroundColor = '#fcf0fa';
 }
 
 

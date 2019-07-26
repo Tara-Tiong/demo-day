@@ -1,0 +1,15 @@
+h1 {
+    color: rgb(90, 92, 211);
+    font-family: Geneva;
+    font-size: 36px
+}
+p {
+    font-size: 18px;
+    font-family: Geneva;
+    color: rgb(96, 100, 139);
+}
+a {
+    color: rgb(158, 175, 248);
+    font-family: Courier New;
+    font-size: 20px
+}

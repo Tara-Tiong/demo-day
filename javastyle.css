@@ -237,8 +237,8 @@ img.gif{
     border-style: hidden 200px;
   }
   .songs{
-    margin-left:2cm;
-    margin-right:2cm;
+    margin-left:2.1cm;
+    margin-right:2.1cm;
     display: inline-block;
     width: 100px;
     height: 100px;
@@ -601,7 +601,7 @@ body{
 
 
 .plastic{
-    margin-left: 40px;
+    margin-left: 30px;
     width: 100vw;
 	height:100vh;
 	overflow: hidden;

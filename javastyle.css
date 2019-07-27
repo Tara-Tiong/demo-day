@@ -601,14 +601,12 @@ body{
 
 
 .plastic{
-    margin-left: -10px;
-	width: 500vw;
-	height:200vh;
+    margin-left: 30px;
+    width: 100vw;
+	height:100vh;
 	overflow: hidden;
     background-attachment: fixed;
-    margin-bottom: 0cm;
     background-color: #fff5f9;
-    margin-left: -28%;
 }
 .mixBlnd
 {

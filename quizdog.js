@@ -24,6 +24,8 @@ function startGame() {
 function setNextQuestion() {
   resetState()
   showQuestion(shuffledQuestions[currentQuestionIndex])
+  
+
 }
 
 function showQuestion(question)
@@ -31,19 +33,20 @@ function showQuestion(question)
     question.answers.forEach(answer => {  
    const button = document.createElement('button')   
      button.innerText = answer.text 
+     var right = answer.correct
      var value = sessionStorage.getItem("Points")
     document.querySelector("#points").innerHTMl = value
-    button.classList.add('btn')  
-    if (answer.correct) {
+    button.classList.add('btn')
+    if (answer.correct == true) {
       if(sessionStorage.getItem("Points")==null){
         sessionStorage.setItem("Points",1)
-        console.log('created')
       }else{
         var myPoints=sessionStorage.getItem("Points")
         myPoints=Number(myPoints)
         myPoints=myPoints+1
         sessionStorage.setItem("Points", myPoints)
-        console.log('added')
+        console.log('right')
+
       }
       button.dataset.correct = answer.correct
     }
@@ -81,6 +84,7 @@ function selectAnswer(e) {
     document.querySelector('#button').onclick = function() {
       var key = document.getElementById('inputKey').value
       localStorage.setItem(key, finalScore)
+      sessionStorage.removeItem("Points")
       var myList = [] //list of points
       var nameList = [] //all players names
       var origin = [] //copy of local storage
